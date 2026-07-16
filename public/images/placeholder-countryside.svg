@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Illustrazione di campagna francese">
+  <rect width="900" height="675" fill="#8ec8d8"/>
+  <circle cx="690" cy="110" r="72" fill="#f3d46f"/>
+  <path d="M0 398c180-95 330 20 495-48 160-66 260-24 405-92v417H0Z" fill="#cfe3d5"/>
+  <path d="M0 510c185-70 300 28 475-18 170-44 245 20 425-28v211H0Z" fill="#9fbea7"/>
+  <path d="M180 410h170v140H180z" fill="#fffaf0"/>
+  <path d="m150 410 116-92 115 92Z" fill="#d55552"/>
+  <path d="M612 372c32-80 116-80 148 0v178H612Z" fill="#f7efd9"/>
+  <path d="M0 585c180-44 350-36 508-8 130 23 240 14 392-22" fill="none" stroke="#17324a" stroke-width="8" opacity=".17"/>
+</svg>

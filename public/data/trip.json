@@ -1,0 +1,4522 @@
+{
+  "schemaVersion": "1.0.0",
+  "tripId": "bonjour-mur-mur-france-2026",
+  "title": "Bonjour Mur Mur",
+  "sourceOfTruth": {
+    "file": "Itinerario_Viaggio_Estivo.xlsx",
+    "importedAt": "2026-07-15",
+    "notes": "Prima proposta editoriale. Orari, prezzi, ricariche e accessibilità devono essere ricontrollati prima del viaggio."
+  },
+  "days": [
+    {
+      "id": "2026-07-31",
+      "date": "2026-07-31",
+      "dayNumber": 1,
+      "type": "transfer",
+      "base": "La Toussuire",
+      "title": "La Francia comincia con molta batteria",
+      "subtitle": "Rossiglione → La Toussuire",
+      "intro": "Prima giornata: chilometri, pause vere e la montagna come ricompensa finale.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da Rossiglione",
+          "description": "Orario da decidere con margine bambino e traffico.",
+          "kind": "drive"
+        },
+        {
+          "time": "Durante il viaggio",
+          "title": "Soste ogni 90 minuti circa",
+          "description": "Ricariche e pause solo in posti dove si possa scendere dall'auto.",
+          "kind": "charging"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a La Toussuire",
+          "description": "Sistemazione e passeggiata breve solo se resta benzina umana.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rossiglione",
+          "lat": 44.563,
+          "lng": 8.67
+        },
+        "end": {
+          "name": "La Toussuire",
+          "lat": 45.255,
+          "lng": 6.26
+        },
+        "distanceKm": 370,
+        "drivingMinutes": 330,
+        "segments": [
+          {
+            "from": "Rossiglione",
+            "to": "Asti/Chieri",
+            "distanceKm": 95,
+            "drivingMinutes": 85,
+            "batteryStartPct": 100,
+            "batteryEndPct": 55,
+            "stop": "Sosta primaria da verificare",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagno da verificare",
+              "bar da verificare"
+            ],
+            "backupA": "Acqui Terme",
+            "backupB": "Asti",
+            "lastVerified": null
+          },
+          {
+            "from": "Asti/Chieri",
+            "to": "Susa",
+            "distanceKm": 115,
+            "drivingMinutes": 90,
+            "batteryStartPct": 80,
+            "batteryEndPct": 25,
+            "stop": "Hub DC area Torino/Susa da verificare",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "ristoro da verificare"
+            ],
+            "backupA": "Rivoli",
+            "backupB": "Susa",
+            "lastVerified": null
+          },
+          {
+            "from": "Susa",
+            "to": "La Toussuire",
+            "distanceKm": 160,
+            "drivingMinutes": 155,
+            "batteryStartPct": 85,
+            "batteryEndPct": 20,
+            "stop": "Saint-Jean-de-Maurienne se necessario",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagno da verificare"
+            ],
+            "backupA": "Modane",
+            "backupB": "Saint-Jean-de-Maurienne",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rossiglione&destination=La+Toussuire&waypoints=Asti%7CSusa&travelmode=driving"
+          }
+        ]
+      },
+      "places": [],
+      "babyNotes": {
+        "carMinutes": "330 minuti stimati totali, tratta più lunga 155 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Sosta primaria da verificare; Hub DC area Torino/Susa da verificare; Saint-Jean-de-Maurienne se necessario",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Ritardo",
+          "plan": "Saltare qualsiasi tappa turistica e puntare all'arrivo."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-01",
+      "date": "2026-08-01",
+      "dayNumber": 2,
+      "type": "base",
+      "base": "La Toussuire",
+      "title": "Pane, montagna e zero eroismi",
+      "subtitle": "La Toussuire",
+      "intro": "Giornata leggera: ambientamento, aria buona e programmi con il volume basso.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Passeggiata facile",
+          "description": "Percorso breve vicino alla base, senza pretendere troppo.",
+          "kind": "walk"
+        },
+        {
+          "time": "Pranzo",
+          "title": "Pranzo tranquillo",
+          "description": "Piano compatibile con sonnellini e fame improvvisa.",
+          "kind": "food"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Riposo",
+          "description": "Il programma principale è non strafare.",
+          "kind": "rest"
+        }
+      ],
+      "route": null,
+      "places": [
+        {
+          "name": "Centro di La Toussuire",
+          "category": "walk",
+          "description": "Passeggiata di ambientamento.",
+          "duration": "45-60 min",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 45.255,
+          "lng": 6.26,
+          "officialUrl": "https://www.la-toussuire.com/",
+          "image": {
+            "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+            "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+            "author": "David Malacrida / elmerjack.com",
+            "sourceName": "Foto fornita da Paolo",
+            "sourceUrl": null,
+            "license": "Uso locale privato",
+            "status": "ready"
+          },
+          "story": "Il centro di La Toussuire è una base di montagna senza troppe complicazioni: negozietti, aria fresca e quelle viste che fanno sembrare intelligente anche una passeggiata di venti minuti.",
+          "curiosity": "La stazione fa parte del comprensorio Les Sybelles, uno dei grandi domini alpini francesi. D'estate cambia ritmo: meno sci, più panorami e gambe che chiedono pietà con educazione.",
+          "matiAngle": "Per Mati: natura facile, aria buona e possibilità concreta di intercettare formaggi savoiardi senza dover scalare una cima."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Centro di La Toussuire: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Alloggio",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Maltempo",
+          "plan": "Giornata in casa, uscita breve quando migliora."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-02",
+      "date": "2026-08-02",
+      "dayNumber": 3,
+      "type": "base",
+      "base": "La Toussuire",
+      "title": "Montagna con moderazione",
+      "subtitle": "La Toussuire e dintorni",
+      "intro": "Se la giornata collabora, panorama facile. Se non collabora, vince il divano.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Panorama facile",
+          "description": "Scegliere un punto raggiungibile senza sentieri complicati.",
+          "kind": "walk"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Rientro lento",
+          "description": "Nessun premio per chi torna stanco morto.",
+          "kind": "rest"
+        }
+      ],
+      "route": null,
+      "places": [
+        {
+          "name": "Belvedere o passeggiata locale",
+          "category": "viewpoint",
+          "description": "Da scegliere dopo verifica sul posto.",
+          "duration": "1-2 ore",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 45.255,
+          "lng": 6.26,
+          "officialUrl": "https://www.la-toussuire.com/",
+          "image": {
+            "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+            "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+            "author": "David Malacrida / elmerjack.com",
+            "sourceName": "Foto fornita da Paolo",
+            "sourceUrl": null,
+            "license": "Uso locale privato",
+            "status": "ready"
+          },
+          "story": "Qui l'idea è semplice: trovare un punto panoramico vicino, guardare le Aiguilles d'Arves e fingere per un attimo che la giornata non abbia orari.",
+          "curiosity": "Le montagne sopra la Maurienne hanno nomi e profili molto scenografici: sono il tipo di panorama che non ha bisogno di filtri, anche se Paolo ci proverà comunque.",
+          "matiAngle": "Per Mati: tanta natura, zero museo, e una buona scusa per dire 'facciamo solo due passi' sapendo che non saranno mai solo due."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Belvedere o passeggiata locale: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Variabile",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Pioggia",
+          "plan": "Attività indoor o giornata in famiglia."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-03",
+      "date": "2026-08-03",
+      "dayNumber": 4,
+      "type": "transfer",
+      "base": "Lione",
+      "title": "Dalle Alpi alla città",
+      "subtitle": "La Toussuire → Lione",
+      "intro": "Trasferimento medio, una pausa sensata e Lione che ci aspetta senza bisogno di correre.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Residence Montempo Appart'Hôtel Lyon Cité Internationale",
+        "address": "Lione, Cité Internationale - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 3-5 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/residence-hoteliere-temporim-cite-internationale.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Residence%20Montempo%20Appart'H%C3%B4tel%20Lyon%20Cit%C3%A9%20Internationale"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da La Toussuire",
+          "description": "Scendere con calma dalla montagna.",
+          "kind": "drive"
+        },
+        {
+          "time": "Metà viaggio",
+          "title": "Sosta a Chambéry",
+          "description": "Pausa breve e passeggiata solo se comoda.",
+          "kind": "stop"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a Lione",
+          "description": "Check-in e giro di quartiere.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "La Toussuire",
+          "lat": 45.255,
+          "lng": 6.26
+        },
+        "end": {
+          "name": "Lione",
+          "lat": 45.764,
+          "lng": 4.835
+        },
+        "distanceKm": 140,
+        "drivingMinutes": 125,
+        "segments": [
+          {
+            "from": "La Toussuire",
+            "to": "Chambéry",
+            "distanceKm": 70,
+            "drivingMinutes": 70,
+            "batteryStartPct": 90,
+            "batteryEndPct": 55,
+            "stop": "Chambéry centro o area comoda da verificare",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bar da verificare"
+            ],
+            "backupA": "Aire de service lungo A43",
+            "backupB": "TODO",
+            "lastVerified": null
+          },
+          {
+            "from": "Chambéry",
+            "to": "Lione",
+            "distanceKm": 85,
+            "drivingMinutes": 75,
+            "batteryStartPct": 75,
+            "batteryEndPct": 35,
+            "stop": "Ricarica a Lione se necessaria",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Bourgoin-Jallieu",
+            "backupB": "Lione",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=La+Toussuire&destination=Lione&waypoints=Chamb%C3%A9ry&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Chambéry",
+          "category": "stopover",
+          "description": "Sosta urbana breve, da tarare sui tempi reali.",
+          "duration": "45-75 min",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 45.564,
+          "lng": 5.917,
+          "officialUrl": "https://www.chamberymontagnes.com/",
+          "image": {
+            "src": "/images/places/place-chambery.jpg",
+            "alt": "Chambéry: Prefecture and city in Savoie, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chamb%C3%A9ry",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Chambéry è una sosta furba tra montagna e città: centro storico elegante, portici, piazzette e un'aria savoiarda che dice 'fermatevi un attimo, ma senza fare una tesi'.",
+          "curiosity": "È stata capitale storica della Savoia: quindi sì, una pausa caffè qui ha più pedigree di quanto ammetteremo in macchina.",
+          "matiAngle": "Per Mati: storia compatta, passeggiata piacevole e Savoia sullo sfondo. Il formaggio non è obbligatorio, ma sarebbe scortese ignorarlo."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "145 minuti stimati totali, tratta più lunga 75 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Chambéry centro o area comoda da verificare; Ricarica a Lione se necessaria",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO Chambéry/Lione",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "Lione è cresciuta tra Rodano e Saona, con radici romane sulla collina di Fourvière e un centro storico diventato patrimonio UNESCO. La cosa bella è che la città non chiede per forza una visita enciclopedica: Vieux Lyon, funicolare e parco bastano per assaggiare la capitale dei bouchon senza trasformarla in una maratona."
+      },
+      "weatherLocation": {
+        "name": "Lione",
+        "lat": 45.764,
+        "lng": 4.835
+      },
+      "backupPlans": [
+        {
+          "condition": "Traffico",
+          "plan": "Saltare Chambéry e fare solo sosta funzionale."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "OnlyLyon Tourisme",
+          "url": "https://en.lyon-france.com/",
+          "lastVerified": null
+        },
+        {
+          "name": "Chambéry Montagnes",
+          "url": "https://www.chamberymontagnes.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Chez Hugon",
+          "city": "Lione",
+          "style": "bouchon lionese",
+          "budget": "€€",
+          "note": "Tradizionale, concreto, più sostanza che scena. Da prenotare se ispira.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez%20Hugon%20Lyon",
+          "sourceUrl": "https://www.lesbouchonslyonnais.org/"
+        },
+        {
+          "name": "Café des Fédérations",
+          "city": "Lione",
+          "style": "bouchon storico",
+          "budget": "€€",
+          "note": "Classico bouchon: perfetto se volete dire 'abbiamo mangiato a Lione' senza troppi giri.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20des%20F%C3%A9d%C3%A9rations%20Lyon",
+          "sourceUrl": "https://www.lesbouchonslyonnais.org/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "LPA Saint-Georges",
+          "area": "Vieux Lyon",
+          "hasCharging": true,
+          "note": "Comodo per Vieux Lyon/Fourvière via funicolare; controllare stalli EV prima di entrare.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LPA%20Saint-Georges%20Lyon%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "LPA Cité Internationale",
+          "area": "Parc de la Tête d'Or",
+          "hasCharging": true,
+          "note": "Utile per giornata parco, più semplice del centro storico.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LPA%20Cit%C3%A9%20Internationale%20Lyon%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "TCL - biglietti metro/funicolare",
+          "url": "https://www.tcl.fr/",
+          "note": "Per salire a Fourvière senza litigare con la collina."
+        },
+        {
+          "name": "Musée Cinéma et Miniature",
+          "url": "https://www.museeminiatureetcinema.fr/",
+          "note": "Piano B indoor sfizioso nel Vieux Lyon."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-04",
+      "date": "2026-08-04",
+      "dayNumber": 5,
+      "type": "base",
+      "base": "Lione",
+      "title": "Lione, senza fare i leoni",
+      "subtitle": "Vieux Lyon, Fourvière e parco",
+      "intro": "Centro storico, un panorama e una zona verde. Tre cose bastano, anche perché Lione non scappa.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-04-lyon.jpg",
+        "alt": "Lyon: City in France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lyon",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Residence Montempo Appart'Hôtel Lyon Cité Internationale",
+        "address": "Lione, Cité Internationale - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 3-5 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/residence-hoteliere-temporim-cite-internationale.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Residence%20Montempo%20Appart'H%C3%B4tel%20Lyon%20Cit%C3%A9%20Internationale"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Vieux Lyon",
+          "description": "Passeggiata nel centro storico, evitando maratone di gradini.",
+          "kind": "visit"
+        },
+        {
+          "time": "Pranzo",
+          "title": "Pausa lunga",
+          "description": "Il momento in cui il programma accetta la realtà.",
+          "kind": "food"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Parc de la Tête d'Or",
+          "description": "Verde, ombra e spazio per rallentare.",
+          "kind": "park"
+        }
+      ],
+      "route": null,
+      "places": [
+        {
+          "name": "Vieux Lyon",
+          "category": "district",
+          "description": "Quartiere storico da visitare con percorso breve.",
+          "duration": "1-2 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 45.762,
+          "lng": 4.827,
+          "officialUrl": "https://en.lyon-france.com/",
+          "image": {
+            "src": "/images/places/place-vieux-lyon.jpg",
+            "alt": "Vieux Lyon: UNESCO World Heritage Site in Auvergne-Rhône-Alpes, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Vieux_Lyon",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Vieux Lyon è un labirinto rinascimentale di cortili, passaggi e facciate calde. È bello perché sembra antico senza diventare pesante, a patto di non voler entrare in ogni portone.",
+          "curiosity": "Le traboules erano passaggi interni usati per attraversare isolati e cortili; a Lione anche una scorciatoia può avere un passato serio.",
+          "matiAngle": "Per Mati: storia, case belle, stradine da esplorare e un bouchon nelle vicinanze. La cultura qui arriva con contorno."
+        },
+        {
+          "name": "Fourvière",
+          "category": "viewpoint",
+          "description": "Vista sulla città; verificare accessi comodi con passeggino.",
+          "duration": "45 min",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 45.762,
+          "lng": 4.822,
+          "officialUrl": "https://en.lyon-france.com/",
+          "image": {
+            "src": "/images/places/place-fourviere.jpg",
+            "alt": "Fourvière: District of Lyon, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Fourvi%C3%A8re",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Fourvière è la collina da cui Lione si mette in posa. Sotto c'è la città, sopra c'è la basilica, in mezzo una funicolare che salva gambe e umore.",
+          "curiosity": "La collina era già importante in epoca romana: Lione, prima di fare la capitale gastronomica, si chiamava Lugdunum e faceva la seria.",
+          "matiAngle": "Per Mati: panorama, storia romana e zero bisogno di conquistare la salita a piedi. Questa è civiltà."
+        },
+        {
+          "name": "Parc de la Tête d'Or",
+          "category": "park",
+          "description": "Piano morbido per il pomeriggio.",
+          "duration": "1-2 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 45.779,
+          "lng": 4.853,
+          "officialUrl": "https://en.lyon-france.com/",
+          "image": {
+            "src": "/images/places/place-parc-de-la-tete-d-or.jpg",
+            "alt": "Parc de la Tête d'or: Largest urban park in Lyon, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Parc_de_la_T%C3%AAte_d'or",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Il Parc de la Tête d'Or è il grande polmone verde di Lione: lago, alberi, prati e spazio per far respirare tutti, soprattutto chi viaggia con un neonato.",
+          "curiosity": "È uno dei parchi urbani più grandi di Francia. Traduzione pratica: se serve rallentare, qui non manca posto.",
+          "matiAngle": "Per Mati: natura in città, pausa morbida e possibilità di camminare senza pavé medievale sotto le ruote."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Vieux Lyon: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Pavé nel centro storico",
+        "stairs": "Fourvière da gestire con funicolare/mezzi",
+        "toilets": "Da verificare",
+        "shade": "Buona al parco",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "Lione è cresciuta tra Rodano e Saona, con radici romane sulla collina di Fourvière e un centro storico diventato patrimonio UNESCO. La cosa bella è che la città non chiede per forza una visita enciclopedica: Vieux Lyon, funicolare e parco bastano per assaggiare la capitale dei bouchon senza trasformarla in una maratona."
+      },
+      "weatherLocation": {
+        "name": "Lione",
+        "lat": 45.764,
+        "lng": 4.835
+      },
+      "backupPlans": [
+        {
+          "condition": "Caldo",
+          "plan": "Ridurre Vieux Lyon, stare al parco o rientrare in alloggio."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "OnlyLyon Tourisme",
+          "url": "https://en.lyon-france.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Chez Hugon",
+          "city": "Lione",
+          "style": "bouchon lionese",
+          "budget": "€€",
+          "note": "Tradizionale, concreto, più sostanza che scena. Da prenotare se ispira.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez%20Hugon%20Lyon",
+          "sourceUrl": "https://www.lesbouchonslyonnais.org/"
+        },
+        {
+          "name": "Café des Fédérations",
+          "city": "Lione",
+          "style": "bouchon storico",
+          "budget": "€€",
+          "note": "Classico bouchon: perfetto se volete dire 'abbiamo mangiato a Lione' senza troppi giri.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20des%20F%C3%A9d%C3%A9rations%20Lyon",
+          "sourceUrl": "https://www.lesbouchonslyonnais.org/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "LPA Saint-Georges",
+          "area": "Vieux Lyon",
+          "hasCharging": true,
+          "note": "Comodo per Vieux Lyon/Fourvière via funicolare; controllare stalli EV prima di entrare.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LPA%20Saint-Georges%20Lyon%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "LPA Cité Internationale",
+          "area": "Parc de la Tête d'Or",
+          "hasCharging": true,
+          "note": "Utile per giornata parco, più semplice del centro storico.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LPA%20Cit%C3%A9%20Internationale%20Lyon%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "TCL - biglietti metro/funicolare",
+          "url": "https://www.tcl.fr/",
+          "note": "Per salire a Fourvière senza litigare con la collina."
+        },
+        {
+          "name": "Musée Cinéma et Miniature",
+          "url": "https://www.museeminiatureetcinema.fr/",
+          "note": "Piano B indoor sfizioso nel Vieux Lyon."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05",
+      "date": "2026-08-05",
+      "dayNumber": 6,
+      "type": "transfer",
+      "base": "Chalet Montegout, zona Moulins",
+      "title": "Verso uno chalet dal nome promettente",
+      "subtitle": "Lione → zona Moulins",
+      "intro": "Una tratta gestibile, una sola sosta carina se ha senso, poi check-in e decompressione.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-05-moulins-allier.jpg",
+        "alt": "Moulins, Allier: Prefecture and commune in Auvergne-Rhône-Alpes, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Moulins%2C_Allier",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Le Chalet Montégut",
+        "address": "Zona Moulins - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 5-6 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/le-chalet-monta-c-gut.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Chalet%20Mont%C3%A9gut%20Moulins%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da Lione",
+          "description": "Senza fretta, che è già un programma.",
+          "kind": "drive"
+        },
+        {
+          "time": "Durante il viaggio",
+          "title": "Charlieu o Trévoux",
+          "description": "Scegliere una sola tappa dopo controllo percorso.",
+          "kind": "stop"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo allo chalet",
+          "description": "Check-in e calma.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Lione",
+          "lat": 45.764,
+          "lng": 4.835
+        },
+        "end": {
+          "name": "Zona Moulins",
+          "lat": 46.568,
+          "lng": 3.334
+        },
+        "distanceKm": 110,
+        "drivingMinutes": 100,
+        "segments": [
+          {
+            "from": "Lione",
+            "to": "Zona Moulins",
+            "distanceKm": 110,
+            "drivingMinutes": 100,
+            "batteryStartPct": 85,
+            "batteryEndPct": 35,
+            "stop": "Sosta Charlieu/Trévoux da decidere",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Villefranche-sur-Saône",
+            "backupB": "Roanne",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Lione&destination=Zona+Moulins&waypoints=Charlieu&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Charlieu",
+          "category": "stopover",
+          "description": "Cittadina possibile per pausa breve.",
+          "duration": "45-75 min",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 46.16,
+          "lng": 4.172,
+          "officialUrl": null,
+          "image": {
+            "src": "/images/places/place-charlieu.jpg",
+            "alt": "Charlieu: Commune in Auvergne-Rhône-Alpes, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Charlieu",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Charlieu è una cittadina piccola ma con carattere: pietra, abbazia, case antiche e il vantaggio enorme di non sembrare una tappa urlata.",
+          "curiosity": "La sua abbazia benedettina racconta un pezzo di Medioevo locale, quello bello da vedere senza dover leggere venti pannelli.",
+          "matiAngle": "Per Mati: storia raccolta, pausa vera e il tipo di borgo dove un panino buono sembra già un piano."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "100 minuti stimati totali, tratta più lunga 100 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Sosta Charlieu/Trévoux da decidere",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "Moulins è l'antica capitale del Bourbonnais: una tappa tranquilla, più da brasserie e centro storico che da lista infinita di monumenti. È perfetta per una pausa di trasferimento: due passi, qualcosa di buono e poi si riparte senza fingere di essere freschissimi."
+      },
+      "weatherLocation": {
+        "name": "Moulins",
+        "lat": 46.568,
+        "lng": 3.334
+      },
+      "backupPlans": [
+        {
+          "condition": "Stanchezza",
+          "plan": "Arrivare direttamente allo chalet."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Moulins Tourisme",
+          "url": "https://www.moulins-tourisme.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Grand Café",
+          "city": "Moulins",
+          "style": "brasserie storica",
+          "budget": "€€",
+          "note": "Brasserie bella ma non impostata come una cerimonia. Buona sosta se il percorso passa comodo.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Grand%20Caf%C3%A9%20Moulins",
+          "sourceUrl": "https://www.moulins-tourisme.com/"
+        },
+        {
+          "name": "Mercato o boulangerie del centro",
+          "city": "Moulins",
+          "style": "pausa furba",
+          "budget": "€",
+          "note": "Panino, quiche, dolce e via: spesso la scelta più compatibile con Atti.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=boulangerie%20centre%20Moulins",
+          "sourceUrl": "https://www.moulins-tourisme.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre Moulins",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Per sosta breve: scegliere in base alla colonnina disponibile live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20recharge%20%C3%A9lectrique%20Moulins%20centre"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-06",
+      "date": "2026-08-06",
+      "dayNumber": 7,
+      "type": "transfer",
+      "base": "Saint-Avertin",
+      "title": "Rotta verso la Loira",
+      "subtitle": "zona Moulins → Saint-Avertin",
+      "intro": "Ci avviciniamo ai castelli. Con giudizio, perché il Rinascimento può aspettare una pausa pannolino.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-06-bourges.jpg",
+        "alt": "Bourges: Commune in Centre-Val de Loire, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bourges",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Airbnb da Tom",
+        "address": "11 Rue Saint-Michel, Saint-Avertin, Centro-Valle della Loira 37550, Francia",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 6-9 agosto.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11%20Rue%20Saint-Michel%2C%2037550%20Saint-Avertin%2C%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza dalla zona Moulins",
+          "description": "Tratta da spezzare in modo realistico.",
+          "kind": "drive"
+        },
+        {
+          "time": "Pranzo",
+          "title": "Bourges o altra tappa sensata",
+          "description": "Sosta culturale breve, se incastra bene.",
+          "kind": "stop"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a Saint-Avertin",
+          "description": "Check-in e spesa utile.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Moulins",
+          "lat": 46.568,
+          "lng": 3.334
+        },
+        "end": {
+          "name": "Saint-Avertin",
+          "lat": 47.363,
+          "lng": 0.739
+        },
+        "distanceKm": 270,
+        "drivingMinutes": 240,
+        "segments": [
+          {
+            "from": "Moulins",
+            "to": "Bourges",
+            "distanceKm": 120,
+            "drivingMinutes": 95,
+            "batteryStartPct": 90,
+            "batteryEndPct": 35,
+            "stop": "Bourges",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagno da verificare",
+              "ristoro da verificare"
+            ],
+            "backupA": "Nevers",
+            "backupB": "Saint-Amand-Montrond",
+            "lastVerified": null
+          },
+          {
+            "from": "Bourges",
+            "to": "Saint-Avertin",
+            "distanceKm": 150,
+            "drivingMinutes": 130,
+            "batteryStartPct": 85,
+            "batteryEndPct": 20,
+            "stop": "Tours/Saint-Avertin se necessario",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Vierzon",
+            "backupB": "Tours",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Moulins&destination=Saint-Avertin&waypoints=Bourges&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Bourges",
+          "category": "stopover",
+          "description": "Sosta urbana possibile, senza visita impegnativa.",
+          "duration": "1-2 ore",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 47.082,
+          "lng": 2.398,
+          "officialUrl": "https://www.bourgesberrytourisme.com/",
+          "image": {
+            "src": "/images/places/place-bourges.jpg",
+            "alt": "Bourges: Commune in Centre-Val de Loire, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bourges",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Bourges è una pausa nobile: cattedrale gotica, case antiche e centro compatto. Noi la usiamo con rispetto, non come se avessimo sei ore e un documentario da girare.",
+          "curiosity": "La cattedrale di Saint-Étienne è patrimonio UNESCO ed è enorme. Talmente enorme che anche una visita esterna conta.",
+          "matiAngle": "Per Mati: storia gotica, vie belle e pausa trasferimento che non sa di area di servizio. Upgrade morale notevole."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "225 minuti stimati totali, tratta più lunga 130 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Bourges; Tours/Saint-Avertin se necessario",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio per scale e interni"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "La Loira è la zona dove i castelli hanno deciso di esagerare con grazia. Chenonceau attraversa il Cher come se fosse normale costruire sull'acqua, Amboise racconta un pezzo di Rinascimento francese, Villandry mette i giardini in ordine geometrico. Bellissimo, ma una visita grande al giorno resta la scelta più adulta."
+      },
+      "weatherLocation": {
+        "name": "Saint-Avertin",
+        "lat": 47.363,
+        "lng": 0.739
+      },
+      "backupPlans": [
+        {
+          "condition": "Ritardo",
+          "plan": "Saltare Bourges, fare solo sosta lunga e arrivo."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Tours Val de Loire Tourisme",
+          "url": "https://www.tours-tourisme.fr/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Bigot",
+          "city": "Amboise",
+          "style": "pasticceria e pranzo leggero",
+          "budget": "€€",
+          "note": "Dolce strategico ad Amboise. Non risolve la fame da pranzo serio, ma migliora l'umore.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bigot%20Amboise%20p%C3%A2tisserie",
+          "sourceUrl": "https://www.amboise-valdeloire.com/"
+        },
+        {
+          "name": "Crêperie Anne de Bretagne",
+          "city": "Tours",
+          "style": "crêperie",
+          "budget": "€€",
+          "note": "Opzione semplice quando serve sedersi senza inventarsi una degustazione.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Anne%20de%20Bretagne%20Tours",
+          "sourceUrl": "https://www.tours-tourisme.fr/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Château de Chenonceau",
+          "area": "Chenonceaux",
+          "hasCharging": null,
+          "note": "Parcheggio visita; servizi e ricarica da verificare sul sito prima di partire.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Ch%C3%A2teau%20de%20Chenonceau%20borne%20recharge"
+        },
+        {
+          "name": "Parking des Tanneurs",
+          "area": "Tours centro",
+          "hasCharging": true,
+          "note": "Utile se passate da Tours/Saint-Avertin; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20des%20Tanneurs%20Tours%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Château de Chenonceau",
+          "url": "https://www.chenonceau.com/",
+          "note": "Biglietti e orari ufficiali."
+        },
+        {
+          "name": "Château et Jardins de Villandry",
+          "url": "https://www.chateauvillandry.fr/",
+          "note": "Biglietti e info giardini."
+        },
+        {
+          "name": "Château Royal d'Amboise",
+          "url": "https://www.chateau-amboise.com/",
+          "note": "Solo se la giornata ha margine."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-07",
+      "date": "2026-08-07",
+      "dayNumber": 8,
+      "type": "base",
+      "base": "Saint-Avertin",
+      "title": "Un castello, perché una casa normale no",
+      "subtitle": "Chenonceau e Amboise",
+      "intro": "Giornata Loira classica, ma senza infilare tre residenze reali nello stesso passeggino.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-07-chateau-de-chenonceau.jpg",
+        "alt": "Château de Chenonceau: Castle spanning the River Cher in France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chenonceau",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Airbnb da Tom",
+        "address": "11 Rue Saint-Michel, Saint-Avertin, Centro-Valle della Loira 37550, Francia",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 6-9 agosto.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11%20Rue%20Saint-Michel%2C%2037550%20Saint-Avertin%2C%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Château de Chenonceau",
+          "description": "Visita principale della giornata. Orari e biglietti da verificare.",
+          "kind": "visit"
+        },
+        {
+          "time": "Pranzo",
+          "title": "Pausa vera",
+          "description": "Non mangiare camminando come in aeroporto.",
+          "kind": "food"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Amboise leggera",
+          "description": "Passeggiata cittadina, non seconda visita monumentale obbligatoria.",
+          "kind": "walk"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Saint-Avertin",
+          "lat": 47.363,
+          "lng": 0.739
+        },
+        "end": {
+          "name": "Saint-Avertin",
+          "lat": 47.363,
+          "lng": 0.739
+        },
+        "distanceKm": 95,
+        "drivingMinutes": 100,
+        "segments": [],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Saint-Avertin&destination=Saint-Avertin&waypoints=Ch%C3%A2teau+de+Chenonceau%7CAmboise&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Château de Chenonceau",
+          "category": "castle",
+          "description": "Il grande classico sul Cher.",
+          "duration": "2-3 ore",
+          "priority": "alta",
+          "bookingRequired": "consigliata, da verificare",
+          "lat": 47.324,
+          "lng": 1.07,
+          "officialUrl": "https://www.chenonceau.com/",
+          "image": {
+            "src": "/images/places/place-chateau-de-chenonceau.jpg",
+            "alt": "Château de Chenonceau: Castle spanning the River Cher in France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chenonceau",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Chenonceau è il castello che attraversa il fiume Cher con una certa disinvoltura. Elegante, teatrale, ma ancora abbastanza umano da visitare senza perdersi dentro.",
+          "curiosity": "È chiamato spesso il castello delle dame, perché molte donne importanti ne hanno segnato la storia. Finalmente un castello che sa a chi deve molto.",
+          "matiAngle": "Per Mati: storia, acqua, giardini e una dose di bellezza molto alta. Formaggio non incluso, ma recuperabile a pranzo."
+        },
+        {
+          "name": "Amboise",
+          "category": "town",
+          "description": "Passeggiata e pausa, con visita interna solo se c'è margine.",
+          "duration": "1-2 ore",
+          "priority": "media",
+          "bookingRequired": "da verificare",
+          "lat": 47.413,
+          "lng": 0.982,
+          "officialUrl": "https://www.amboise-valdeloire.com/",
+          "image": {
+            "src": "/images/places/place-amboise.jpg",
+            "alt": "Amboise: Commune in Centre-Val de Loire, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Amboise",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Amboise è una cittadina della Loira con castello, fiume e una misura giusta per il pomeriggio: bella da passeggiare senza pretendere di fare tutto.",
+          "curiosity": "Leonardo da Vinci passò qui gli ultimi anni della sua vita, al Clos Lucé. Insomma: anche lui aveva capito che la Loira non era male.",
+          "matiAngle": "Per Mati: storia rinascimentale, scorci sul fiume e pausa dolce quasi moralmente obbligatoria."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "100 minuti stimati totali, da spezzare se Atti lo chiede.",
+        "pauseIdeas": "Château de Chenonceau: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "marsupio per scale e interni"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Da verificare sui siti ufficiali",
+        "stroller": "Da verificare",
+        "stairs": "Probabili negli interni",
+        "toilets": "Da verificare",
+        "shade": "Buona nei giardini, da verificare",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "La Loira è la zona dove i castelli hanno deciso di esagerare con grazia. Chenonceau attraversa il Cher come se fosse normale costruire sull'acqua, Amboise racconta un pezzo di Rinascimento francese, Villandry mette i giardini in ordine geometrico. Bellissimo, ma una visita grande al giorno resta la scelta più adulta."
+      },
+      "weatherLocation": {
+        "name": "Chenonceaux",
+        "lat": 47.324,
+        "lng": 1.07
+      },
+      "backupPlans": [
+        {
+          "condition": "Bambino nervoso",
+          "plan": "Visitare solo esterni/giardini e rientrare."
+        },
+        {
+          "condition": "Pioggia",
+          "plan": "Chenonceau resta la visita principale; tagliare Amboise."
+        }
+      ],
+      "bookings": [
+        {
+          "name": "Chenonceau",
+          "status": "TODO",
+          "time": "TODO",
+          "address": "TODO",
+          "codeOrNote": ""
+        }
+      ],
+      "sources": [
+        {
+          "name": "Château de Chenonceau",
+          "url": "https://www.chenonceau.com/",
+          "lastVerified": null
+        },
+        {
+          "name": "Amboise Val de Loire Tourisme",
+          "url": "https://www.amboise-valdeloire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Bigot",
+          "city": "Amboise",
+          "style": "pasticceria e pranzo leggero",
+          "budget": "€€",
+          "note": "Dolce strategico ad Amboise. Non risolve la fame da pranzo serio, ma migliora l'umore.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bigot%20Amboise%20p%C3%A2tisserie",
+          "sourceUrl": "https://www.amboise-valdeloire.com/"
+        },
+        {
+          "name": "Crêperie Anne de Bretagne",
+          "city": "Tours",
+          "style": "crêperie",
+          "budget": "€€",
+          "note": "Opzione semplice quando serve sedersi senza inventarsi una degustazione.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Anne%20de%20Bretagne%20Tours",
+          "sourceUrl": "https://www.tours-tourisme.fr/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Château de Chenonceau",
+          "area": "Chenonceaux",
+          "hasCharging": null,
+          "note": "Parcheggio visita; servizi e ricarica da verificare sul sito prima di partire.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Ch%C3%A2teau%20de%20Chenonceau%20borne%20recharge"
+        },
+        {
+          "name": "Parking des Tanneurs",
+          "area": "Tours centro",
+          "hasCharging": true,
+          "note": "Utile se passate da Tours/Saint-Avertin; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20des%20Tanneurs%20Tours%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Château de Chenonceau",
+          "url": "https://www.chenonceau.com/",
+          "note": "Biglietti e orari ufficiali."
+        },
+        {
+          "name": "Château et Jardins de Villandry",
+          "url": "https://www.chateauvillandry.fr/",
+          "note": "Biglietti e info giardini."
+        },
+        {
+          "name": "Château Royal d'Amboise",
+          "url": "https://www.chateau-amboise.com/",
+          "note": "Solo se la giornata ha margine."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-08",
+      "date": "2026-08-08",
+      "dayNumber": 9,
+      "type": "base",
+      "base": "Saint-Avertin",
+      "title": "Giardini, geometria e pausa merenda",
+      "subtitle": "Villandry o Chambord leggero",
+      "intro": "Secondo giorno Loira: bello sì, enciclopedico no. Scegliamo un obiettivo e lasciamo spazio all'aria.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-08-chateau-de-villandry.jpg",
+        "alt": "Château de Villandry: French Renaissance castle in the Loire Valley",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Villandry",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Airbnb da Tom",
+        "address": "11 Rue Saint-Michel, Saint-Avertin, Centro-Valle della Loira 37550, Francia",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 6-9 agosto.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11%20Rue%20Saint-Michel%2C%2037550%20Saint-Avertin%2C%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Villandry",
+          "description": "Giardini come visita più ariosa e modulabile.",
+          "kind": "visit"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Passeggiata o rientro",
+          "description": "Nessuna seconda visita pesante.",
+          "kind": "rest"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Saint-Avertin",
+          "lat": 47.363,
+          "lng": 0.739
+        },
+        "end": {
+          "name": "Saint-Avertin",
+          "lat": 47.363,
+          "lng": 0.739
+        },
+        "distanceKm": 55,
+        "drivingMinutes": 70,
+        "segments": [],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Saint-Avertin&destination=Saint-Avertin&waypoints=Ch%C3%A2teau+et+Jardins+de+Villandry%7CChambord&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Château et Jardins de Villandry",
+          "category": "garden",
+          "description": "Giardini scenografici e visita più flessibile.",
+          "duration": "2 ore",
+          "priority": "alta",
+          "bookingRequired": "da verificare",
+          "lat": 47.34,
+          "lng": 0.514,
+          "officialUrl": "https://www.chateauvillandry.fr/",
+          "image": {
+            "src": "/images/places/place-chateau-de-villandry.jpg",
+            "alt": "Château de Villandry: French Renaissance castle in the Loire Valley",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Villandry",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Villandry è il posto dove i giardini hanno deciso di mettersi in ordine. Geometrie, orti decorativi e colori: natura, ma con righello e autostima.",
+          "curiosity": "I giardini sono famosi quanto il castello, forse di più. È raro che un cavolo decorativo riesca a sembrare così aristocratico.",
+          "matiAngle": "Per Mati: natura curata, storia leggera e ottimo materiale per dire 'questo lo vorrei anche io', ignorando la manutenzione."
+        },
+        {
+          "name": "Chambord",
+          "category": "castle",
+          "description": "Alternativa più monumentale, da valutare solo se siete in forma.",
+          "duration": "3 ore",
+          "priority": "opzionale",
+          "bookingRequired": "da verificare",
+          "lat": 47.616,
+          "lng": 1.517,
+          "officialUrl": "https://www.chambord.org/",
+          "image": {
+            "src": "/images/places/place-chateau-de-chambord.jpg",
+            "alt": "Château de Chambord: Castle in Chambord, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Chambord è il castello che non conosce la parola 'sobrio'. Grande, scenografico, con tetti e torri che sembrano progettati da qualcuno molto preso bene.",
+          "curiosity": "La celebre scala a doppia elica è attribuita all'influenza di Leonardo. Due persone possono salire senza incontrarsi: utile anche in certe mattine familiari.",
+          "matiAngle": "Per Mati: storia gigante, bosco intorno e un livello di wow piuttosto onesto."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "70 minuti stimati totali, da spezzare se Atti lo chiede.",
+        "pauseIdeas": "Château et Jardins de Villandry: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "marsupio per scale e interni"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Da verificare",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Variabile",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "La Loira è la zona dove i castelli hanno deciso di esagerare con grazia. Chenonceau attraversa il Cher come se fosse normale costruire sull'acqua, Amboise racconta un pezzo di Rinascimento francese, Villandry mette i giardini in ordine geometrico. Bellissimo, ma una visita grande al giorno resta la scelta più adulta."
+      },
+      "weatherLocation": {
+        "name": "Villandry",
+        "lat": 47.34,
+        "lng": 0.514
+      },
+      "backupPlans": [
+        {
+          "condition": "Caldo",
+          "plan": "Visita breve al mattino e rientro."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Château de Villandry",
+          "url": "https://www.chateauvillandry.fr/",
+          "lastVerified": null
+        },
+        {
+          "name": "Château de Chambord",
+          "url": "https://www.chambord.org/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Bigot",
+          "city": "Amboise",
+          "style": "pasticceria e pranzo leggero",
+          "budget": "€€",
+          "note": "Dolce strategico ad Amboise. Non risolve la fame da pranzo serio, ma migliora l'umore.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bigot%20Amboise%20p%C3%A2tisserie",
+          "sourceUrl": "https://www.amboise-valdeloire.com/"
+        },
+        {
+          "name": "Crêperie Anne de Bretagne",
+          "city": "Tours",
+          "style": "crêperie",
+          "budget": "€€",
+          "note": "Opzione semplice quando serve sedersi senza inventarsi una degustazione.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Anne%20de%20Bretagne%20Tours",
+          "sourceUrl": "https://www.tours-tourisme.fr/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Château de Chenonceau",
+          "area": "Chenonceaux",
+          "hasCharging": null,
+          "note": "Parcheggio visita; servizi e ricarica da verificare sul sito prima di partire.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Ch%C3%A2teau%20de%20Chenonceau%20borne%20recharge"
+        },
+        {
+          "name": "Parking des Tanneurs",
+          "area": "Tours centro",
+          "hasCharging": true,
+          "note": "Utile se passate da Tours/Saint-Avertin; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20des%20Tanneurs%20Tours%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Château de Chenonceau",
+          "url": "https://www.chenonceau.com/",
+          "note": "Biglietti e orari ufficiali."
+        },
+        {
+          "name": "Château et Jardins de Villandry",
+          "url": "https://www.chateauvillandry.fr/",
+          "note": "Biglietti e info giardini."
+        },
+        {
+          "name": "Château Royal d'Amboise",
+          "url": "https://www.chateau-amboise.com/",
+          "note": "Solo se la giornata ha margine."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-09",
+      "date": "2026-08-09",
+      "dayNumber": 10,
+      "type": "transfer",
+      "base": "Rouen",
+      "title": "Verso nord, con criterio",
+      "subtitle": "Saint-Avertin → Rouen",
+      "intro": "Trasferimento importante: una tappa sola, scelta bene, poi Normandia.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/rouen-facciate-paolo.jpg",
+        "alt": "Facciate a graticcio colorate nel centro storico di Rouen",
+        "author": "Foto fornita da Paolo",
+        "sourceName": "Archivio locale",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Novotel Suites Rouen Normandie",
+        "address": "Rouen, Normandia - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 9-12 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/suitehotel-rouen-normandie.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Novotel%20Suites%20Rouen%20Normandie"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da Saint-Avertin",
+          "description": "Partire senza trasformare la mattina in una gara.",
+          "kind": "drive"
+        },
+        {
+          "time": "Metà giornata",
+          "title": "Chartres o Le Mans",
+          "description": "Una sola tappa, in base a strada e ricariche.",
+          "kind": "stop"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a Rouen",
+          "description": "Check-in e passeggiata brevissima se avanza energia.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Saint-Avertin",
+          "lat": 47.363,
+          "lng": 0.739
+        },
+        "end": {
+          "name": "Rouen",
+          "lat": 49.443,
+          "lng": 1.099
+        },
+        "distanceKm": 300,
+        "drivingMinutes": 270,
+        "segments": [
+          {
+            "from": "Saint-Avertin",
+            "to": "Chartres/Le Mans",
+            "distanceKm": 130,
+            "drivingMinutes": 100,
+            "batteryStartPct": 90,
+            "batteryEndPct": 30,
+            "stop": "Chartres o Le Mans",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Tours nord",
+            "backupB": "Le Mans",
+            "lastVerified": null
+          },
+          {
+            "from": "Chartres/Le Mans",
+            "to": "Rouen",
+            "distanceKm": 170,
+            "drivingMinutes": 150,
+            "batteryStartPct": 85,
+            "batteryEndPct": 20,
+            "stop": "Sosta extra se necessaria",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Évreux",
+            "backupB": "Rouen",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Saint-Avertin&destination=Rouen&waypoints=Chartres&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Chartres",
+          "category": "stopover",
+          "description": "Tappa possibile, da non trasformare in visita lunga.",
+          "duration": "1-2 ore",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 48.446,
+          "lng": 1.489,
+          "officialUrl": "https://www.chartres-tourisme.com/",
+          "image": {
+            "src": "/images/places/place-chartres.jpg",
+            "alt": "Chartres: Prefecture and commune in Centre-Val de Loire, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chartres",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Chartres è soprattutto la sua cattedrale: una presenza enorme, blu vetrate e medioevo in formato verticale. Perfetta come tappa se serve una cosa bella e una sola.",
+          "curiosity": "Il blu delle vetrate di Chartres è talmente famoso da avere quasi una sua reputazione personale.",
+          "matiAngle": "Per Mati: storia, luce colorata e una pausa che sembra culturale anche se dura poco."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "250 minuti stimati totali, tratta più lunga 150 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Chartres o Le Mans; Sosta extra se necessaria",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "Rouen è Normandia in formato città: cattedrale gotica, case a graticcio, Jeanne d'Arc e Monet che ha dipinto la facciata come se fosse una serie TV. Il centro è compatto ma pieno di pavé: bello da guardare, meno da spingere se il passeggino è in modalità trattore."
+      },
+      "weatherLocation": {
+        "name": "Rouen",
+        "lat": 49.443,
+        "lng": 1.099
+      },
+      "backupPlans": [
+        {
+          "condition": "Ritardo",
+          "plan": "Nessuna tappa turistica."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Rouen Tourisme",
+          "url": "https://www.visiterouen.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "La Couronne",
+          "city": "Rouen",
+          "style": "auberge storica",
+          "budget": "€€€",
+          "note": "Non è la più economica, ma è un pezzo di storia gastronomica. Da valutare più per il pranzo memorabile che per il budget.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Couronne%20Rouen",
+          "sourceUrl": "https://www.lacouronne-rouen.fr/"
+        },
+        {
+          "name": "Crêperie Rouennaise",
+          "city": "Rouen",
+          "style": "crêperie comoda",
+          "budget": "€€",
+          "note": "Più leggera e pratica: galette, crêpe, bambino gestibile e nessuna liturgia.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Rouennaise%20Rouen",
+          "sourceUrl": "https://www.visiterouen.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking du Vieux-Marché",
+          "area": "centro storico",
+          "hasCharging": true,
+          "note": "Molto centrale per cattedrale e Gros-Horloge; controllare altezza/colonnine live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Vieux%20March%C3%A9%20Rouen%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking Cathédrale - Office",
+          "area": "cattedrale",
+          "hasCharging": null,
+          "note": "Comodo, ma il centro può essere stretto: verificare accessi e disponibilità.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Cath%C3%A9drale%20Rouen%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Gros-Horloge",
+          "url": "https://www.visiterouen.com/",
+          "note": "Verificare visita interna e orari sul turismo ufficiale."
+        },
+        {
+          "name": "Musée des Beaux-Arts de Rouen",
+          "url": "https://mbarouen.fr/",
+          "note": "Piano B indoor serio ma non punitivo."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-10",
+      "date": "2026-08-10",
+      "dayNumber": 11,
+      "type": "base",
+      "base": "Rouen",
+      "title": "Pietra gotica e case storte",
+      "subtitle": "Rouen centro storico",
+      "intro": "Oggi il programma cammina piano: cattedrale, Gros-Horloge, strade belle e pause non negoziabili.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/rouen-facciate-paolo.jpg",
+        "alt": "Facciate a graticcio colorate nel centro storico di Rouen",
+        "author": "Foto fornita da Paolo",
+        "sourceName": "Archivio locale",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Novotel Suites Rouen Normandie",
+        "address": "Rouen, Normandia - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 9-12 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/suitehotel-rouen-normandie.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Novotel%20Suites%20Rouen%20Normandie"
+      },
+      "timeline": [
+        {
+          "time": "10:00",
+          "title": "Cattedrale di Rouen",
+          "description": "Esterni e interni, se accessi e bambino sono d'accordo.",
+          "kind": "visit"
+        },
+        {
+          "time": "12:30",
+          "title": "Pausa pranzo",
+          "description": "Seduti. Questa è la parte importante.",
+          "kind": "food"
+        },
+        {
+          "time": "15:00",
+          "title": "Gros-Horloge e centro",
+          "description": "Passeggiata fotogenica e rientro senza gloria eccessiva.",
+          "kind": "walk"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rouen",
+          "lat": 49.443,
+          "lng": 1.099
+        },
+        "end": {
+          "name": "Rouen",
+          "lat": 49.443,
+          "lng": 1.099
+        },
+        "distanceKm": 5,
+        "drivingMinutes": 0,
+        "segments": [],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rouen&destination=Rouen&waypoints=Cath%C3%A9drale+Notre-Dame+de+Rouen%7CGros-Horloge&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Cathédrale Notre-Dame de Rouen",
+          "category": "cathedral",
+          "description": "La facciata di Monet, vista con calma.",
+          "duration": "45-60 min",
+          "priority": "alta",
+          "bookingRequired": "da verificare",
+          "lat": 49.44,
+          "lng": 1.095,
+          "officialUrl": "https://www.visiterouen.com/",
+          "image": {
+            "src": "/images/places/rouen-facciate-paolo.jpg",
+            "alt": "Facciate a graticcio colorate nel centro storico di Rouen",
+            "author": "Foto fornita da Paolo",
+            "sourceName": "Archivio locale",
+            "sourceUrl": null,
+            "license": "Uso locale privato",
+            "status": "ready"
+          },
+          "story": "La cattedrale di Rouen è gotica, alta, piena di dettagli e assolutamente consapevole di essere fotogenica. Monet l'ha dipinta più volte: noi possiamo limitarci a guardarla bene.",
+          "curiosity": "La facciata cambia tantissimo con la luce, motivo per cui Monet ci ha costruito una serie intera. Paolo probabilmente farà lo stesso con il telefono.",
+          "matiAngle": "Per Mati: storia potente, pietra scenografica e centro storico subito intorno per una pausa meno solenne."
+        },
+        {
+          "name": "Gros-Horloge",
+          "category": "monument",
+          "description": "Orologio enorme, sobrietà rinascimentale inclusa.",
+          "duration": "30-45 min",
+          "priority": "alta",
+          "bookingRequired": "da verificare",
+          "lat": 49.441,
+          "lng": 1.091,
+          "officialUrl": "https://www.visiterouen.com/",
+          "image": {
+            "src": "/images/places/rouen-facciate-paolo.jpg",
+            "alt": "Facciate a graticcio colorate nel centro storico di Rouen",
+            "author": "Foto fornita da Paolo",
+            "sourceName": "Archivio locale",
+            "sourceUrl": null,
+            "license": "Uso locale privato",
+            "status": "ready"
+          },
+          "story": "Il Gros-Horloge è un grande orologio astronomico incastonato nel cuore di Rouen. È il tipo di monumento che dice 'siamo in centro' meglio di qualunque cartello.",
+          "curiosity": "Il meccanismo è medievale e la decorazione è rinascimentale: praticamente un accessorio urbano con secoli di personalità.",
+          "matiAngle": "Per Mati: storia compatta, case a graticcio intorno e zero bisogno di camminare chilometri per sentirsi in Normandia."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Cathédrale Notre-Dame de Rouen: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Da verificare",
+        "stroller": "Centro storico con pavé",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Media",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "Rouen è Normandia in formato città: cattedrale gotica, case a graticcio, Jeanne d'Arc e Monet che ha dipinto la facciata come se fosse una serie TV. Il centro è compatto ma pieno di pavé: bello da guardare, meno da spingere se il passeggino è in modalità trattore."
+      },
+      "weatherLocation": {
+        "name": "Rouen",
+        "lat": 49.443,
+        "lng": 1.099
+      },
+      "backupPlans": [
+        {
+          "condition": "Pioggia",
+          "plan": "Cattedrale, pausa lunga, rientro."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Rouen Tourisme",
+          "url": "https://www.visiterouen.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "La Couronne",
+          "city": "Rouen",
+          "style": "auberge storica",
+          "budget": "€€€",
+          "note": "Non è la più economica, ma è un pezzo di storia gastronomica. Da valutare più per il pranzo memorabile che per il budget.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Couronne%20Rouen",
+          "sourceUrl": "https://www.lacouronne-rouen.fr/"
+        },
+        {
+          "name": "Crêperie Rouennaise",
+          "city": "Rouen",
+          "style": "crêperie comoda",
+          "budget": "€€",
+          "note": "Più leggera e pratica: galette, crêpe, bambino gestibile e nessuna liturgia.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Rouennaise%20Rouen",
+          "sourceUrl": "https://www.visiterouen.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking du Vieux-Marché",
+          "area": "centro storico",
+          "hasCharging": true,
+          "note": "Molto centrale per cattedrale e Gros-Horloge; controllare altezza/colonnine live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Vieux%20March%C3%A9%20Rouen%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking Cathédrale - Office",
+          "area": "cattedrale",
+          "hasCharging": null,
+          "note": "Comodo, ma il centro può essere stretto: verificare accessi e disponibilità.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Cath%C3%A9drale%20Rouen%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Gros-Horloge",
+          "url": "https://www.visiterouen.com/",
+          "note": "Verificare visita interna e orari sul turismo ufficiale."
+        },
+        {
+          "name": "Musée des Beaux-Arts de Rouen",
+          "url": "https://mbarouen.fr/",
+          "note": "Piano B indoor serio ma non punitivo."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-11",
+      "date": "2026-08-11",
+      "dayNumber": 12,
+      "type": "base",
+      "base": "Rouen",
+      "title": "Scogliere, vento e capelli discutibili",
+      "subtitle": "Étretat o Honfleur",
+      "intro": "Normandia costiera: scegliamo una direzione sostenibile, non un documentario completo sul litorale.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-11-etretat.jpg",
+        "alt": "Étretat: Commune in Normandy, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/%C3%89tretat",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Novotel Suites Rouen Normandie",
+        "address": "Rouen, Normandia - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 9-12 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/suitehotel-rouen-normandie.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Novotel%20Suites%20Rouen%20Normandie"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Étretat",
+          "description": "Vista costa, evitando sentieri inadatti al passeggino.",
+          "kind": "visit"
+        },
+        {
+          "time": "Pranzo",
+          "title": "Pausa al coperto se tira vento",
+          "description": "La Normandia sa essere teatrale.",
+          "kind": "food"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Rientro o Honfleur breve",
+          "description": "Solo se i tempi sono umani.",
+          "kind": "optional"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rouen",
+          "lat": 49.443,
+          "lng": 1.099
+        },
+        "end": {
+          "name": "Rouen",
+          "lat": 49.443,
+          "lng": 1.099
+        },
+        "distanceKm": 180,
+        "drivingMinutes": 190,
+        "segments": [
+          {
+            "from": "Rouen",
+            "to": "Étretat",
+            "distanceKm": 90,
+            "drivingMinutes": 90,
+            "batteryStartPct": 85,
+            "batteryEndPct": 45,
+            "stop": "Étretat parcheggio/ricarica da verificare",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagno da verificare"
+            ],
+            "backupA": "Le Havre",
+            "backupB": "Fécamp",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rouen&destination=Rouen&waypoints=%C3%89tretat%7CHonfleur&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Étretat",
+          "category": "coast",
+          "description": "Scogliere iconiche, da affrontare con percorso baby-friendly.",
+          "duration": "2 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 49.707,
+          "lng": 0.205,
+          "officialUrl": "https://www.lehavre-etretat-tourisme.com/",
+          "image": {
+            "src": "/images/places/place-etretat.jpg",
+            "alt": "Étretat: Commune in Normandy, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/%C3%89tretat",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Étretat è falesie bianche, archi naturali e mare che fa scena anche quando il vento decide di partecipare troppo. Bellissima, ma da prendere con rispetto.",
+          "curiosity": "Le sue scogliere hanno ispirato pittori e scrittori, e si capisce: sembrano fatte apposta per far dire 'ok, fermiamoci un attimo'.",
+          "matiAngle": "Per Mati: natura spettacolare, aria di mare e panorama forte. Marsupio consigliato se il passeggino inizia a guardarti male."
+        },
+        {
+          "name": "Honfleur",
+          "category": "town",
+          "description": "Alternativa più urbana e riparata, ma da non sommare a forza.",
+          "duration": "1-2 ore",
+          "priority": "opzionale",
+          "bookingRequired": "no",
+          "lat": 49.419,
+          "lng": 0.233,
+          "officialUrl": "https://www.ot-honfleur.fr/",
+          "image": {
+            "src": "/images/places/place-honfleur.jpg",
+            "alt": "Honfleur: Commune in Normandy, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Honfleur",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Honfleur è porto, case strette e luce morbida. Più raccolta di Étretat, più urbana, perfetta se serve costa senza trasformare tutto in escursione.",
+          "curiosity": "Il Vieux Bassin è stato amato dagli impressionisti: acqua, barche e facciate alte fanno il loro lavoro ancora oggi.",
+          "matiAngle": "Per Mati: storia portuale, atmosfera bella e possibilità concreta di mangiare qualcosa di buono senza sabbia nelle scarpe."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "90 minuti stimati totali, tratta più lunga 90 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Étretat parcheggio/ricarica da verificare",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Da verificare in alta stagione",
+        "stroller": "Da verificare",
+        "stairs": "Probabili sui sentieri panoramici",
+        "toilets": "Da verificare",
+        "shade": "Limitata",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "Rouen è Normandia in formato città: cattedrale gotica, case a graticcio, Jeanne d'Arc e Monet che ha dipinto la facciata come se fosse una serie TV. Il centro è compatto ma pieno di pavé: bello da guardare, meno da spingere se il passeggino è in modalità trattore."
+      },
+      "weatherLocation": {
+        "name": "Étretat",
+        "lat": 49.707,
+        "lng": 0.205
+      },
+      "backupPlans": [
+        {
+          "condition": "Vento forte",
+          "plan": "Honfleur o rientro a Rouen."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Le Havre Étretat Tourisme",
+          "url": "https://www.lehavre-etretat-tourisme.com/",
+          "lastVerified": null
+        },
+        {
+          "name": "Office de Tourisme Honfleur",
+          "url": "https://www.ot-honfleur.fr/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "La Couronne",
+          "city": "Rouen",
+          "style": "auberge storica",
+          "budget": "€€€",
+          "note": "Non è la più economica, ma è un pezzo di storia gastronomica. Da valutare più per il pranzo memorabile che per il budget.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Couronne%20Rouen",
+          "sourceUrl": "https://www.lacouronne-rouen.fr/"
+        },
+        {
+          "name": "Crêperie Rouennaise",
+          "city": "Rouen",
+          "style": "crêperie comoda",
+          "budget": "€€",
+          "note": "Più leggera e pratica: galette, crêpe, bambino gestibile e nessuna liturgia.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Rouennaise%20Rouen",
+          "sourceUrl": "https://www.visiterouen.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking du Vieux-Marché",
+          "area": "centro storico",
+          "hasCharging": true,
+          "note": "Molto centrale per cattedrale e Gros-Horloge; controllare altezza/colonnine live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Vieux%20March%C3%A9%20Rouen%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking Cathédrale - Office",
+          "area": "cattedrale",
+          "hasCharging": null,
+          "note": "Comodo, ma il centro può essere stretto: verificare accessi e disponibilità.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Cath%C3%A9drale%20Rouen%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Gros-Horloge",
+          "url": "https://www.visiterouen.com/",
+          "note": "Verificare visita interna e orari sul turismo ufficiale."
+        },
+        {
+          "name": "Musée des Beaux-Arts de Rouen",
+          "url": "https://mbarouen.fr/",
+          "note": "Piano B indoor serio ma non punitivo."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-12",
+      "date": "2026-08-12",
+      "dayNumber": 13,
+      "type": "transfer",
+      "base": "Rennes",
+      "title": "Dalla Normandia alla Bretagna",
+      "subtitle": "Rouen → Camping des Gayeulles, Rennes",
+      "intro": "Giornata di trasferimento con una tappa possibile. Il resto lo lasciamo alla strada e al buon senso.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-12-foug-res.jpg",
+        "alt": "Fougères: Subprefecture and commune in Brittany, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Foug%C3%A8res",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Camping des Gayeulles",
+        "address": "Rennes, Parc des Gayeulles - indirizzo esatto da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 12-16 agosto.",
+        "bookingUrl": "https://www.camping-rennes.com/",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Camping%20des%20Gayeulles%20Rennes"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da Rouen",
+          "description": "Prepararsi a una giornata di auto vera.",
+          "kind": "drive"
+        },
+        {
+          "time": "Metà giornata",
+          "title": "Sosta Caen/Bayeux/Fougères",
+          "description": "Scegliere solo una tappa, se comoda.",
+          "kind": "stop"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a Rennes",
+          "description": "Check-in al camping e decompressione.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rouen",
+          "lat": 49.443,
+          "lng": 1.099
+        },
+        "end": {
+          "name": "Rennes",
+          "lat": 48.117,
+          "lng": -1.677
+        },
+        "distanceKm": 310,
+        "drivingMinutes": 270,
+        "segments": [
+          {
+            "from": "Rouen",
+            "to": "Caen/Bayeux",
+            "distanceKm": 130,
+            "drivingMinutes": 100,
+            "batteryStartPct": 90,
+            "batteryEndPct": 35,
+            "stop": "Caen o Bayeux",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Pont-l'Évêque",
+            "backupB": "Caen",
+            "lastVerified": null
+          },
+          {
+            "from": "Caen/Bayeux",
+            "to": "Rennes",
+            "distanceKm": 180,
+            "drivingMinutes": 160,
+            "batteryStartPct": 85,
+            "batteryEndPct": 20,
+            "stop": "Fougères o area servizio",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Avranches",
+            "backupB": "Rennes",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rouen&destination=Rennes&waypoints=Caen%7CFoug%C3%A8res&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Fougères",
+          "category": "stopover",
+          "description": "Tappa bretone possibile, da valutare sui tempi.",
+          "duration": "1 ora",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 48.352,
+          "lng": -1.199,
+          "officialUrl": "https://www.destination-fougeres.bzh/",
+          "image": {
+            "src": "/images/places/place-fougeres.jpg",
+            "alt": "Fougères: Subprefecture and commune in Brittany, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Foug%C3%A8res",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Fougères ha un castello medievale vero, con torri e mura che sembrano uscire da un libro, ma senza bisogno di trombe e cavalieri.",
+          "curiosity": "La fortezza è una delle più grandi d'Europa nel suo genere. Una tappa piccola solo sulla carta.",
+          "matiAngle": "Per Mati: storia medievale, pietra scenografica e pausa bretone con abbastanza carattere da meritare la deviazione."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "260 minuti stimati totali, tratta più lunga 160 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Caen o Bayeux; Fougères o area servizio",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "Rennes è una città universitaria e bretone con case a graticcio, piazze vive e una specialità che dice tutto: galette-saucisse. Dopo un trasferimento, il bello è usarla piano: centro storico al mattino, Parc des Gayeulles quando serve spazio e ombra."
+      },
+      "weatherLocation": {
+        "name": "Rennes",
+        "lat": 48.117,
+        "lng": -1.677
+      },
+      "backupPlans": [
+        {
+          "condition": "Ritardo",
+          "plan": "Nessuna tappa, check-in e basta."
+        }
+      ],
+      "bookings": [
+        {
+          "name": "Camping des Gayeulles",
+          "status": "TODO",
+          "time": "TODO",
+          "address": "TODO verificare",
+          "codeOrNote": ""
+        }
+      ],
+      "sources": [
+        {
+          "name": "Rennes Tourisme",
+          "url": "https://www.tourisme-rennes.com/",
+          "lastVerified": null
+        },
+        {
+          "name": "Camping des Gayeulles",
+          "url": "https://www.camping-rennes.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Marché des Lices",
+          "city": "Rennes",
+          "style": "galette-saucisse",
+          "budget": "€",
+          "note": "La scelta più locale e meno fighetta: galette-saucisse e via, se è giorno di mercato.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9%20des%20Lices%20Rennes%20galette%20saucisse",
+          "sourceUrl": "https://www.tourisme-rennes.com/"
+        },
+        {
+          "name": "Crêperie Saint-Georges",
+          "city": "Rennes",
+          "style": "galette bretone",
+          "budget": "€€",
+          "note": "Più seduti, più comodi, ancora molto Bretagna. Buona opzione con passeggino se c'è posto.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Saint-Georges%20Rennes",
+          "sourceUrl": "https://www.tourisme-rennes.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Vilaine",
+          "area": "centro Rennes",
+          "hasCharging": true,
+          "note": "Centrale per passeggiata; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Vilaine%20Rennes%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking Parc des Gayeulles",
+          "area": "parco/camping",
+          "hasCharging": null,
+          "note": "Comodo per una giornata lenta vicino alla base.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Parc%20des%20Gayeulles%20Rennes%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Musée de Bretagne",
+          "url": "https://www.musee-bretagne.fr/",
+          "note": "Piano B indoor con storia locale."
+        },
+        {
+          "name": "Les Champs Libres",
+          "url": "https://www.leschampslibres.fr/",
+          "note": "Utile se piove e serve un posto gestibile."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-13",
+      "date": "2026-08-13",
+      "dayNumber": 14,
+      "type": "base",
+      "base": "Rennes",
+      "title": "Rennes, giornata con freno a mano",
+      "subtitle": "Centro storico e Parc des Gayeulles",
+      "intro": "Dopo il trasferimento, si fa una cosa molto evoluta: rallentare.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-13-rennes.jpg",
+        "alt": "Rennes: Prefecture and commune in Brittany, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rennes",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Camping des Gayeulles",
+        "address": "Rennes, Parc des Gayeulles - indirizzo esatto da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 12-16 agosto.",
+        "bookingUrl": "https://www.camping-rennes.com/",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Camping%20des%20Gayeulles%20Rennes"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Centro storico di Rennes",
+          "description": "Passeggiata breve tra case a graticcio e pausa caffè.",
+          "kind": "walk"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Parc des Gayeulles",
+          "description": "Verde vicino alla base, cioè un'idea adulta.",
+          "kind": "park"
+        }
+      ],
+      "route": null,
+      "places": [
+        {
+          "name": "Centro storico di Rennes",
+          "category": "district",
+          "description": "Passeggiata urbana facile.",
+          "duration": "1-2 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 48.112,
+          "lng": -1.681,
+          "officialUrl": "https://www.tourisme-rennes.com/",
+          "image": {
+            "src": "/images/places/place-rennes.jpg",
+            "alt": "Rennes: Prefecture and commune in Brittany, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Rennes",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Il centro di Rennes è case a graticcio, piazze vive e un'energia universitaria che tiene tutto leggero. È storico, ma non polveroso.",
+          "curiosity": "Dopo un grande incendio nel 1720, Rennes è diventata un mix curioso: medioevo sopravvissuto e città ricostruita con più ordine.",
+          "matiAngle": "Per Mati: storia colorata, galette-saucisse nei paraggi e una città che sembra presa bene senza sforzarsi."
+        },
+        {
+          "name": "Parc des Gayeulles",
+          "category": "park",
+          "description": "Piano verde e vicino al camping.",
+          "duration": "1-2 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 48.132,
+          "lng": -1.637,
+          "officialUrl": "https://www.tourisme-rennes.com/",
+          "image": {
+            "src": "/images/places/2026-08-13-rennes.jpg",
+            "alt": "Rennes: Prefecture and commune in Brittany, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Rennes",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Il Parc des Gayeulles è il piano intelligente dopo giorni di auto: alberi, sentieri, acqua e spazio per respirare. Non tutto deve essere monumento.",
+          "curiosity": "È uno dei grandi spazi verdi di Rennes, usato dai locali per correre, passeggiare e fare cose sane che noi osserveremo con rispetto.",
+          "matiAngle": "Per Mati: natura facile, ombra, pausa per Atti e zero rischio di dover fingere interesse per una sala piena di armature."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Centro storico di Rennes: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Buona al parco",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "Rennes è una città universitaria e bretone con case a graticcio, piazze vive e una specialità che dice tutto: galette-saucisse. Dopo un trasferimento, il bello è usarla piano: centro storico al mattino, Parc des Gayeulles quando serve spazio e ombra."
+      },
+      "weatherLocation": {
+        "name": "Rennes",
+        "lat": 48.117,
+        "lng": -1.677
+      },
+      "backupPlans": [
+        {
+          "condition": "Pioggia",
+          "plan": "Centro breve e pausa indoor."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Rennes Tourisme",
+          "url": "https://www.tourisme-rennes.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Marché des Lices",
+          "city": "Rennes",
+          "style": "galette-saucisse",
+          "budget": "€",
+          "note": "La scelta più locale e meno fighetta: galette-saucisse e via, se è giorno di mercato.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9%20des%20Lices%20Rennes%20galette%20saucisse",
+          "sourceUrl": "https://www.tourisme-rennes.com/"
+        },
+        {
+          "name": "Crêperie Saint-Georges",
+          "city": "Rennes",
+          "style": "galette bretone",
+          "budget": "€€",
+          "note": "Più seduti, più comodi, ancora molto Bretagna. Buona opzione con passeggino se c'è posto.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Saint-Georges%20Rennes",
+          "sourceUrl": "https://www.tourisme-rennes.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Vilaine",
+          "area": "centro Rennes",
+          "hasCharging": true,
+          "note": "Centrale per passeggiata; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Vilaine%20Rennes%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking Parc des Gayeulles",
+          "area": "parco/camping",
+          "hasCharging": null,
+          "note": "Comodo per una giornata lenta vicino alla base.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Parc%20des%20Gayeulles%20Rennes%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Musée de Bretagne",
+          "url": "https://www.musee-bretagne.fr/",
+          "note": "Piano B indoor con storia locale."
+        },
+        {
+          "name": "Les Champs Libres",
+          "url": "https://www.leschampslibres.fr/",
+          "note": "Utile se piove e serve un posto gestibile."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-14",
+      "date": "2026-08-14",
+      "dayNumber": 15,
+      "type": "base",
+      "base": "Rennes",
+      "title": "Mura, mare e burro strategico",
+      "subtitle": "Saint-Malo e Cancale",
+      "intro": "Giornata costa: maree, vento e parcheggi hanno voce in capitolo. Noi fingiamo di comandare.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/saint-malo-paolo.jpeg",
+        "alt": "Vista aerea delle mura e del centro storico di Saint-Malo sul mare",
+        "author": "Foto fornita da Paolo",
+        "sourceName": "Archivio locale",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Camping des Gayeulles",
+        "address": "Rennes, Parc des Gayeulles - indirizzo esatto da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 12-16 agosto.",
+        "bookingUrl": "https://www.camping-rennes.com/",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Camping%20des%20Gayeulles%20Rennes"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Saint-Malo intra-muros",
+          "description": "Passeggiata sulle mura solo se accessi e meteo aiutano.",
+          "kind": "visit"
+        },
+        {
+          "time": "Pranzo",
+          "title": "Pausa lunga",
+          "description": "Il mare apre l'appetito, ma anche il vento.",
+          "kind": "food"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Cancale opzionale",
+          "description": "Solo se il rientro resta umano.",
+          "kind": "optional"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rennes",
+          "lat": 48.117,
+          "lng": -1.677
+        },
+        "end": {
+          "name": "Rennes",
+          "lat": 48.117,
+          "lng": -1.677
+        },
+        "distanceKm": 160,
+        "drivingMinutes": 170,
+        "segments": [
+          {
+            "from": "Rennes",
+            "to": "Saint-Malo",
+            "distanceKm": 70,
+            "drivingMinutes": 65,
+            "batteryStartPct": 85,
+            "batteryEndPct": 55,
+            "stop": "Saint-Malo parcheggio da verificare",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagni da verificare"
+            ],
+            "backupA": "Miniac-Morvan",
+            "backupB": "Cancale",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rennes&destination=Rennes&waypoints=Saint-Malo%7CCancale&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Saint-Malo",
+          "category": "coast-town",
+          "description": "Città murata, bellissima e potenzialmente affollata.",
+          "duration": "2-3 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 48.649,
+          "lng": -2.025,
+          "officialUrl": "https://www.saint-malo-tourisme.com/",
+          "image": {
+            "src": "/images/places/saint-malo-paolo.jpeg",
+            "alt": "Vista aerea delle mura e del centro storico di Saint-Malo sul mare",
+            "author": "Foto fornita da Paolo",
+            "sourceName": "Archivio locale",
+            "sourceUrl": null,
+            "license": "Uso locale privato",
+            "status": "ready"
+          },
+          "story": "Saint-Malo è mura, mare e spirito corsaro. Sta lì compatta sull'acqua e sembra dire: sì, siamo turistici, ma con ottime ragioni.",
+          "curiosity": "La città fu pesantemente distrutta nel 1944 e ricostruita con grande fedeltà. Quindi sembra antica perché ha scelto di tornare sé stessa.",
+          "matiAngle": "Per Mati: mare, storia, vento nei capelli e possibilità di crêpe. Difficile chiedere più Bretagna in una sola tappa."
+        },
+        {
+          "name": "Cancale",
+          "category": "coast-town",
+          "description": "Opzione mare e ostriche, se logistica e sonnellini approvano.",
+          "duration": "1 ora",
+          "priority": "opzionale",
+          "bookingRequired": "no",
+          "lat": 48.676,
+          "lng": -1.852,
+          "officialUrl": "https://www.saint-malo-tourisme.com/",
+          "image": {
+            "src": "/images/places/place-cancale.jpg",
+            "alt": "Cancale: Commune in Brittany, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Cancale",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Cancale è porto, maree e ostriche. Una tappa piccola ma molto precisa: qui il mare finisce direttamente nel piatto.",
+          "curiosity": "Le ostriche di Cancale sono famose da secoli e hanno pure un'aria molto poco modesta. Comprensibile.",
+          "matiAngle": "Per Mati: natura marina, cibo locale e sfiziosità vera. Anche solo guardare il porto vale una pausa."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "65 minuti stimati totali, tratta più lunga 65 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Saint-Malo parcheggio da verificare",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "antivento leggero"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Da verificare presto",
+        "stroller": "Pavé/mura da valutare",
+        "stairs": "Possibili sulle mura",
+        "toilets": "Da verificare",
+        "shade": "Limitata",
+        "tickets": "Non previsti",
+        "openingHours": "Maree da controllare",
+        "narrative": "Saint-Malo è città corsara, mura, maree e vento; Cancale è ostriche e porto. La giornata può essere bellissima o molto affollata, quindi meglio pensarla a moduli: mura se si riesce, spiaggia o porto se serve semplicità."
+      },
+      "weatherLocation": {
+        "name": "Saint-Malo",
+        "lat": 48.649,
+        "lng": -2.025
+      },
+      "backupPlans": [
+        {
+          "condition": "Affollamento",
+          "plan": "Passeggiata breve e spiaggia più tranquilla da scegliere."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Saint-Malo Baie du Mont-Saint-Michel Tourisme",
+          "url": "https://www.saint-malo-tourisme.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Bergamote",
+          "city": "Saint-Malo",
+          "style": "crêperie intra-muros",
+          "budget": "€€",
+          "note": "Galette e crêpe nel centro murato: turistico sì, ma nel modo utile.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bergamote%20Saint-Malo%20cr%C3%AAperie",
+          "sourceUrl": "https://www.saint-malo-tourisme.com/"
+        },
+        {
+          "name": "Marché aux huîtres",
+          "city": "Cancale",
+          "style": "ostriche super dirette",
+          "budget": "€",
+          "note": "Se vi va il mare nel piatto: ostriche al porto, zero fronzoli, molto Cancale.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9%20aux%20hu%C3%AEtres%20Cancale",
+          "sourceUrl": "https://www.saint-malo-tourisme.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Paul Féval",
+          "area": "Saint-Malo",
+          "hasCharging": true,
+          "note": "Parcheggio relais spesso più sensato dell'intra-muros in alta stagione.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Paul%20F%C3%A9val%20Saint-Malo%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking du Port",
+          "area": "Cancale",
+          "hasCharging": null,
+          "note": "Comodo per ostriche/porto; controllare affollamento e maree.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20port%20Cancale%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Saint-Malo Tourisme",
+          "url": "https://www.saint-malo-tourisme.com/",
+          "note": "Maree, remparts, visite e info pratiche."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15",
+      "date": "2026-08-15",
+      "dayNumber": 16,
+      "type": "base",
+      "base": "Rennes",
+      "title": "Ferragosto bretone, con cautela",
+      "subtitle": "Dinan e costa",
+      "intro": "Bella giornata potenziale, ma il 15 agosto non perdona. Si parte presto o si scala il programma.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-15-dinan.jpg",
+        "alt": "Dinan: Walled town in Brittany, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dinan",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Camping des Gayeulles",
+        "address": "Rennes, Parc des Gayeulles - indirizzo esatto da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 12-16 agosto.",
+        "bookingUrl": "https://www.camping-rennes.com/",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Camping%20des%20Gayeulles%20Rennes"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Dinan",
+          "description": "Centro storico, ma con attenzione a pendenze e pavé.",
+          "kind": "visit"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Cap Fréhel opzionale",
+          "description": "Panorama se traffico, vento e Atti concedono.",
+          "kind": "optional"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rennes",
+          "lat": 48.117,
+          "lng": -1.677
+        },
+        "end": {
+          "name": "Rennes",
+          "lat": 48.117,
+          "lng": -1.677
+        },
+        "distanceKm": 190,
+        "drivingMinutes": 210,
+        "segments": [
+          {
+            "from": "Rennes",
+            "to": "Dinan",
+            "distanceKm": 55,
+            "drivingMinutes": 55,
+            "batteryStartPct": 85,
+            "batteryEndPct": 60,
+            "stop": "Dinan",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Saint-Malo area",
+            "backupB": "Rennes",
+            "lastVerified": null
+          },
+          {
+            "from": "Dinan",
+            "to": "Cap Fréhel",
+            "distanceKm": 45,
+            "drivingMinutes": 55,
+            "batteryStartPct": 80,
+            "batteryEndPct": 55,
+            "stop": "Cap Fréhel parcheggio da verificare",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagni da verificare"
+            ],
+            "backupA": "Dinard",
+            "backupB": "Saint-Cast-le-Guildo",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rennes&destination=Rennes&waypoints=Dinan%7CCap+Fr%C3%A9hel&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Dinan",
+          "category": "town",
+          "description": "Centro medievale molto bello, ma non sempre dolce col passeggino.",
+          "duration": "2 ore",
+          "priority": "alta",
+          "bookingRequired": "no",
+          "lat": 48.455,
+          "lng": -2.047,
+          "officialUrl": "https://www.dinan-capfrehel.com/",
+          "image": {
+            "src": "/images/places/place-dinan.jpg",
+            "alt": "Dinan: Walled town in Brittany, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Dinan",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Dinan è medioevo in salita: case a graticcio, pietra, botteghe e strade che non hanno pensato moltissimo ai passeggini moderni.",
+          "curiosity": "La Rue du Jerzual collega il porto al centro storico ed è bellissima, ma anche una piccola dichiarazione di guerra ai polpacci.",
+          "matiAngle": "Per Mati: storia, scorci romantici ma non sdolcinati, e crêperie come motivazione scientifica."
+        },
+        {
+          "name": "Cap Fréhel",
+          "category": "coast",
+          "description": "Panorama forte, da valutare con vento e traffico.",
+          "duration": "1 ora",
+          "priority": "opzionale",
+          "bookingRequired": "no",
+          "lat": 48.683,
+          "lng": -2.318,
+          "officialUrl": "https://www.dinan-capfrehel.com/",
+          "image": {
+            "src": "/images/places/place-cap-frehel.jpg",
+            "alt": "Cap Fréhel: Peninsula in Brittany, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Cap_Fr%C3%A9hel",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Cap Fréhel è costa bretone in versione ampia: scogliere, faro, vento e orizzonte. Qui la natura non fa la timida.",
+          "curiosity": "Le falesie arrivano a circa 70 metri e ospitano uccelli marini. Traduzione: panorama potente, cappellino ben fermo.",
+          "matiAngle": "Per Mati: natura pura, mare e vento. Portare entusiasmo e uno strato in più, anche se il cielo sembra collaborare."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "110 minuti stimati totali, tratta più lunga 55 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Dinan; Cap Fréhel parcheggio da verificare",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "antivento leggero"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Da verificare per Ferragosto",
+        "stroller": "Critico in alcune vie",
+        "stairs": "Possibili",
+        "toilets": "Da verificare",
+        "shade": "Variabile",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "Dinan è medievale sul serio: case a graticcio, vie ripide, pietra e scorci da cartolina. Bellissima, ma con un passeggino va trattata con rispetto. Cap Fréhel aggiunge costa e panorama, solo se traffico e vento sono dalla nostra parte."
+      },
+      "weatherLocation": {
+        "name": "Dinan",
+        "lat": 48.455,
+        "lng": -2.047
+      },
+      "backupPlans": [
+        {
+          "condition": "Traffico 15 agosto",
+          "plan": "Restare a Rennes/Parc des Gayeulles o fare solo Dinan breve."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Dinan Cap Fréhel Tourisme",
+          "url": "https://www.dinan-capfrehel.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Crêperie Ahna",
+          "city": "Dinan",
+          "style": "crêperie bretone",
+          "budget": "€€",
+          "note": "Galette classica, centro storico, scelta sensata senza farla lunga.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Ahna%20Dinan",
+          "sourceUrl": "https://www.dinan-capfrehel.com/"
+        },
+        {
+          "name": "La Lycorne",
+          "city": "Dinan",
+          "style": "crêperie / cucina locale",
+          "budget": "€€",
+          "note": "Opzione tipica se siete già dentro le vie medievali e non volete riprendere l'auto.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Lycorne%20Dinan%20restaurant",
+          "sourceUrl": "https://www.dinan-capfrehel.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Centre Historique",
+          "area": "Dinan",
+          "hasCharging": null,
+          "note": "Scegliere un parcheggio alto: con passeggino le salite contano.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20centre%20historique%20Dinan%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Dinan Cap Fréhel Tourisme",
+          "url": "https://www.dinan-capfrehel.com/",
+          "note": "Controllare Cap Fréhel, parcheggi e vento."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16",
+      "date": "2026-08-16",
+      "dayNumber": 17,
+      "type": "transfer",
+      "base": "Blois",
+      "title": "La diagonale con pausa intelligente",
+      "subtitle": "Rennes → Blois",
+      "intro": "Si lascia la Bretagna e si torna verso la Loira. Non serve vincere nulla, solo arrivare bene.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-16-laval-mayenne.jpg",
+        "alt": "Laval, Mayenne: Prefecture and commune in Pays de la Loire, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Laval%2C_Mayenne",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Appart'City Classic Blois",
+        "address": "Blois - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 16-17 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/apart-city-cap-affaires-blois.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Appart'City%20Classic%20Blois"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da Rennes",
+          "description": "Giornata lunga, ma spezzabile.",
+          "kind": "drive"
+        },
+        {
+          "time": "Metà viaggio",
+          "title": "Laval, Angers o Le Mans",
+          "description": "Tappa da scegliere secondo ricariche e traffico.",
+          "kind": "stop"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a Blois",
+          "description": "Check-in e passeggiata breve se resta energia.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Rennes",
+          "lat": 48.117,
+          "lng": -1.677
+        },
+        "end": {
+          "name": "Blois",
+          "lat": 47.586,
+          "lng": 1.335
+        },
+        "distanceKm": 300,
+        "drivingMinutes": 280,
+        "segments": [
+          {
+            "from": "Rennes",
+            "to": "Laval/Angers",
+            "distanceKm": 90,
+            "drivingMinutes": 85,
+            "batteryStartPct": 90,
+            "batteryEndPct": 50,
+            "stop": "Laval o Angers",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Vitré",
+            "backupB": "Laval",
+            "lastVerified": null
+          },
+          {
+            "from": "Laval/Angers",
+            "to": "Blois",
+            "distanceKm": 210,
+            "drivingMinutes": 190,
+            "batteryStartPct": 85,
+            "batteryEndPct": 15,
+            "stop": "Le Mans/Tours se necessario",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Le Mans",
+            "backupB": "Tours",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Rennes&destination=Blois&waypoints=Laval&travelmode=driving"
+          }
+        ]
+      },
+      "places": [
+        {
+          "name": "Laval",
+          "category": "stopover",
+          "description": "Tappa breve e realistica.",
+          "duration": "45-90 min",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 48.071,
+          "lng": -0.771,
+          "officialUrl": "https://www.laval-tourisme.com/",
+          "image": {
+            "src": "/images/places/place-laval-mayenne.jpg",
+            "alt": "Laval, Mayenne: Prefecture and commune in Pays de la Loire, France",
+            "author": "Wikimedia contributors",
+            "sourceName": "Wikipedia / Wikimedia Commons",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Laval%2C_Mayenne",
+            "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+            "status": "ready"
+          },
+          "story": "Laval è una pausa di trasferimento con dignità: castello, fiume Mayenne e centro gestibile. Non deve conquistare la giornata, solo migliorarla.",
+          "curiosity": "Il castello domina la città e racconta il passato medievale della Mayenne. Una sosta breve può comunque avere una torre.",
+          "matiAngle": "Per Mati: storia senza fatica, passeggiata sul fiume e pausa pratica prima di rimettersi in strada."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "275 minuti stimati totali, tratta più lunga 190 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Laval o Angers; Le Mans/Tours se necessario",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Da verificare",
+        "openingHours": "Da verificare",
+        "narrative": "Rennes è una città universitaria e bretone con case a graticcio, piazze vive e una specialità che dice tutto: galette-saucisse. Dopo un trasferimento, il bello è usarla piano: centro storico al mattino, Parc des Gayeulles quando serve spazio e ombra."
+      },
+      "weatherLocation": {
+        "name": "Blois",
+        "lat": 47.586,
+        "lng": 1.335
+      },
+      "backupPlans": [
+        {
+          "condition": "Ritardo",
+          "plan": "Arrivare a Blois senza tappa turistica."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Blois Chambord Tourisme",
+          "url": "https://www.bloischambord.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Marché des Lices",
+          "city": "Rennes",
+          "style": "galette-saucisse",
+          "budget": "€",
+          "note": "La scelta più locale e meno fighetta: galette-saucisse e via, se è giorno di mercato.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=March%C3%A9%20des%20Lices%20Rennes%20galette%20saucisse",
+          "sourceUrl": "https://www.tourisme-rennes.com/"
+        },
+        {
+          "name": "Crêperie Saint-Georges",
+          "city": "Rennes",
+          "style": "galette bretone",
+          "budget": "€€",
+          "note": "Più seduti, più comodi, ancora molto Bretagna. Buona opzione con passeggino se c'è posto.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cr%C3%AAperie%20Saint-Georges%20Rennes",
+          "sourceUrl": "https://www.tourisme-rennes.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Vilaine",
+          "area": "centro Rennes",
+          "hasCharging": true,
+          "note": "Centrale per passeggiata; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Vilaine%20Rennes%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "Parking Parc des Gayeulles",
+          "area": "parco/camping",
+          "hasCharging": null,
+          "note": "Comodo per una giornata lenta vicino alla base.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Parc%20des%20Gayeulles%20Rennes%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Musée de Bretagne",
+          "url": "https://www.musee-bretagne.fr/",
+          "note": "Piano B indoor con storia locale."
+        },
+        {
+          "name": "Les Champs Libres",
+          "url": "https://www.leschampslibres.fr/",
+          "note": "Utile se piove e serve un posto gestibile."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-17",
+      "date": "2026-08-17",
+      "dayNumber": 18,
+      "type": "transfer",
+      "base": "Lione",
+      "title": "La tappa lunga. Molto lunga.",
+      "subtitle": "Blois → Lione",
+      "intro": "Oggi il protagonista è l'asfalto. Noi lo gestiamo con soste e aspettative ragionevoli.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/2026-08-06-bourges.jpg",
+        "alt": "La tappa lunga. Molto lunga.: Bourges: Commune in Centre-Val de Loire, France",
+        "author": "Wikimedia contributors",
+        "sourceName": "Wikipedia / Wikimedia Commons",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bourges",
+        "license": "Da verificare sulla pagina Wikimedia prima di pubblicare",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Residence Montempo Appart'Hôtel Lyon Cité Internationale",
+        "address": "Lione, Cité Internationale - indirizzo esatto da Booking da verificare",
+        "checkIn": "TODO",
+        "notes": "Soggiorno 17-18 agosto.",
+        "bookingUrl": "https://www.booking.com/hotel/fr/residence-hoteliere-temporim-cite-internationale.it.html",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Residence%20Montempo%20Appart'H%C3%B4tel%20Lyon%20Cit%C3%A9%20Internationale"
+      },
+      "timeline": [
+        {
+          "time": "Mattina presto",
+          "title": "Partenza da Blois",
+          "description": "Poca poesia, molta organizzazione.",
+          "kind": "drive"
+        },
+        {
+          "time": "Metà giornata",
+          "title": "Bourges",
+          "description": "Prima pausa importante.",
+          "kind": "charging"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Moulins/Nevers/Roanne",
+          "description": "Seconda e terza pausa secondo batteria e umani.",
+          "kind": "charging"
+        },
+        {
+          "time": "Sera",
+          "title": "Arrivo a Lione",
+          "description": "Check-in e basta. Nessun eroismo.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Blois",
+          "lat": 47.586,
+          "lng": 1.335
+        },
+        "end": {
+          "name": "Lione",
+          "lat": 45.764,
+          "lng": 4.835
+        },
+        "distanceKm": 460,
+        "drivingMinutes": 420,
+        "segments": [
+          {
+            "from": "Blois",
+            "to": "Bourges",
+            "distanceKm": 145,
+            "drivingMinutes": 120,
+            "batteryStartPct": 100,
+            "batteryEndPct": 30,
+            "stop": "Bourges",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "bagno da verificare",
+              "ristoro da verificare"
+            ],
+            "backupA": "Vierzon",
+            "backupB": "TODO",
+            "lastVerified": null
+          },
+          {
+            "from": "Bourges",
+            "to": "Moulins/Nevers",
+            "distanceKm": 110,
+            "drivingMinutes": 100,
+            "batteryStartPct": 85,
+            "batteryEndPct": 35,
+            "stop": "Moulins o Nevers",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Saint-Amand-Montrond",
+            "backupB": "Moulins",
+            "lastVerified": null
+          },
+          {
+            "from": "Moulins/Nevers",
+            "to": "Roanne",
+            "distanceKm": 105,
+            "drivingMinutes": 95,
+            "batteryStartPct": 85,
+            "batteryEndPct": 40,
+            "stop": "Roanne se necessario",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Vichy",
+            "backupB": "Roanne",
+            "lastVerified": null
+          },
+          {
+            "from": "Roanne",
+            "to": "Lione",
+            "distanceKm": 95,
+            "drivingMinutes": 85,
+            "batteryStartPct": 75,
+            "batteryEndPct": 30,
+            "stop": "Arrivo Lione",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Villefranche-sur-Saône",
+            "backupB": "Lione",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Blois&destination=Lione&waypoints=Bourges%7CMoulins%7CRoanne&travelmode=driving"
+          }
+        ]
+      },
+      "places": [],
+      "babyNotes": {
+        "carMinutes": "400 minuti stimati totali, tratta più lunga 120 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Bourges; Moulins o Nevers; Roanne se necessario; Arrivo Lione",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio per scale e interni"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO Lione",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare soste",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "Blois è una porta morbida sulla Loira: castello reale, centro storico e vista sul fiume. Dopo tanti chilometri è più una passeggiata intelligente che una giornata da museo completo."
+      },
+      "weatherLocation": {
+        "name": "Lione",
+        "lat": 45.764,
+        "lng": 4.835
+      },
+      "backupPlans": [
+        {
+          "condition": "Traffico o stanchezza",
+          "plan": "Nessuna passeggiata a Blois, partenza diretta."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "OnlyLyon Tourisme",
+          "url": "https://en.lyon-france.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Les Banquettes Rouges",
+          "city": "Blois",
+          "style": "bistrot",
+          "budget": "€€",
+          "note": "Cucina francese concreta e centrale. Da controllare disponibilità, ma come idea ci sta.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les%20Banquettes%20Rouges%20Blois",
+          "sourceUrl": "https://www.bloischambord.com/"
+        },
+        {
+          "name": "Comptoir de Mamie Bigoude",
+          "city": "Blois",
+          "style": "crêpes e piatti facili",
+          "budget": "€€",
+          "note": "Colorato e poco solenne: utile se serve mangiare senza trattative infinite.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Comptoir%20de%20Mamie%20Bigoude%20Blois",
+          "sourceUrl": "https://www.bloischambord.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking Château de Blois",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per una passeggiata breve e il castello.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parking%20Ch%C3%A2teau%20de%20Blois%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "Château Royal de Blois",
+          "url": "https://www.chateaudeblois.fr/",
+          "note": "Biglietti ufficiali se resta energia."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18",
+      "date": "2026-08-18",
+      "dayNumber": 19,
+      "type": "transfer",
+      "base": "La Toussuire",
+      "title": "Ritorno in quota",
+      "subtitle": "Lione → La Toussuire",
+      "intro": "Lasciamo la città e torniamo dove respirare sembra già un'attività.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da Lione",
+          "description": "Sosta a Chambéry se serve.",
+          "kind": "drive"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Arrivo a La Toussuire",
+          "description": "Rientro in montagna e programma leggero.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "Lione",
+          "lat": 45.764,
+          "lng": 4.835
+        },
+        "end": {
+          "name": "La Toussuire",
+          "lat": 45.255,
+          "lng": 6.26
+        },
+        "distanceKm": 140,
+        "drivingMinutes": 125,
+        "segments": [
+          {
+            "from": "Lione",
+            "to": "Chambéry",
+            "distanceKm": 85,
+            "drivingMinutes": 75,
+            "batteryStartPct": 85,
+            "batteryEndPct": 45,
+            "stop": "Chambéry se necessario",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Bourgoin-Jallieu",
+            "backupB": "Chambéry",
+            "lastVerified": null
+          },
+          {
+            "from": "Chambéry",
+            "to": "La Toussuire",
+            "distanceKm": 70,
+            "drivingMinutes": 70,
+            "batteryStartPct": 75,
+            "batteryEndPct": 40,
+            "stop": "Arrivo",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [],
+            "backupA": "Saint-Jean-de-Maurienne",
+            "backupB": "TODO",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Lione&destination=La+Toussuire&waypoints=Chamb%C3%A9ry&travelmode=driving"
+          }
+        ]
+      },
+      "places": [],
+      "babyNotes": {
+        "carMinutes": "145 minuti stimati totali, tratta più lunga 75 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Chambéry se necessario; Arrivo",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "marsupio di backup per pavé e centro storico"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "Lione è cresciuta tra Rodano e Saona, con radici romane sulla collina di Fourvière e un centro storico diventato patrimonio UNESCO. La cosa bella è che la città non chiede per forza una visita enciclopedica: Vieux Lyon, funicolare e parco bastano per assaggiare la capitale dei bouchon senza trasformarla in una maratona."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Ritardo",
+          "plan": "Arrivo diretto."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Chez Hugon",
+          "city": "Lione",
+          "style": "bouchon lionese",
+          "budget": "€€",
+          "note": "Tradizionale, concreto, più sostanza che scena. Da prenotare se ispira.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chez%20Hugon%20Lyon",
+          "sourceUrl": "https://www.lesbouchonslyonnais.org/"
+        },
+        {
+          "name": "Café des Fédérations",
+          "city": "Lione",
+          "style": "bouchon storico",
+          "budget": "€€",
+          "note": "Classico bouchon: perfetto se volete dire 'abbiamo mangiato a Lione' senza troppi giri.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20des%20F%C3%A9d%C3%A9rations%20Lyon",
+          "sourceUrl": "https://www.lesbouchonslyonnais.org/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "LPA Saint-Georges",
+          "area": "Vieux Lyon",
+          "hasCharging": true,
+          "note": "Comodo per Vieux Lyon/Fourvière via funicolare; controllare stalli EV prima di entrare.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LPA%20Saint-Georges%20Lyon%20recharge%20%C3%A9lectrique"
+        },
+        {
+          "name": "LPA Cité Internationale",
+          "area": "Parc de la Tête d'Or",
+          "hasCharging": true,
+          "note": "Utile per giornata parco, più semplice del centro storico.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=LPA%20Cit%C3%A9%20Internationale%20Lyon%20recharge%20%C3%A9lectrique"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "name": "TCL - biglietti metro/funicolare",
+          "url": "https://www.tcl.fr/",
+          "note": "Per salire a Fourvière senza litigare con la collina."
+        },
+        {
+          "name": "Musée Cinéma et Miniature",
+          "url": "https://www.museeminiatureetcinema.fr/",
+          "note": "Piano B indoor sfizioso nel Vieux Lyon."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19",
+      "date": "2026-08-19",
+      "dayNumber": 20,
+      "type": "base",
+      "base": "La Toussuire",
+      "title": "Recupero energie, livello uno",
+      "subtitle": "La Toussuire",
+      "intro": "Riposo ufficiale. Una categoria nobile, troppo spesso sottovalutata.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Tutto il giorno",
+          "title": "Riposo",
+          "description": "Eventuale passeggiata breve solo se nasce spontanea.",
+          "kind": "rest"
+        }
+      ],
+      "route": null,
+      "places": [],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Casa di Eveline o passeggiata breve in paese, senza complicarsi la giornata.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Alloggio",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Troppa energia",
+          "plan": "Passeggiata locale breve."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-20",
+      "date": "2026-08-20",
+      "dayNumber": 21,
+      "type": "base",
+      "base": "La Toussuire",
+      "title": "Panorama, se tutti approvano",
+      "subtitle": "La Toussuire e dintorni",
+      "intro": "Una giornata panoramica breve, con diritto di rinuncia totale e nessuna vergogna.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Belvedere semplice",
+          "description": "Attività breve e reversibile.",
+          "kind": "walk"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Rientro lento",
+          "description": "La montagna resta lì anche domani.",
+          "kind": "rest"
+        }
+      ],
+      "route": null,
+      "places": [
+        {
+          "name": "Passeggiata panoramica locale",
+          "category": "viewpoint",
+          "description": "Da scegliere in base a meteo e accessibilità.",
+          "duration": "1-2 ore",
+          "priority": "media",
+          "bookingRequired": "no",
+          "lat": 45.255,
+          "lng": 6.26,
+          "officialUrl": "https://www.la-toussuire.com/",
+          "image": {
+            "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+            "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+            "author": "David Malacrida / elmerjack.com",
+            "sourceName": "Foto fornita da Paolo",
+            "sourceUrl": null,
+            "license": "Uso locale privato",
+            "status": "ready"
+          },
+          "story": "Una passeggiata panoramica qui è più una terapia che un'attività: verde, aria sottile e vista larga, da prendere senza spirito olimpico.",
+          "curiosity": "In estate le piste diventano sentieri e pascoli: stesso posto, tutt'altro rumore di fondo.",
+          "matiAngle": "Per Mati: natura in formato morbido e alta probabilità di desiderare qualcosa con formaggio al rientro."
+        }
+      ],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Passeggiata panoramica locale: pausa all'aperto o caffè vicino, da scegliere sul posto in base a ombra e bagni.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Da verificare",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Maltempo",
+          "plan": "Giornata indoor/alloggio."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-21",
+      "date": "2026-08-21",
+      "dayNumber": 22,
+      "type": "base",
+      "base": "La Toussuire",
+      "title": "Ultima giornata francese, senza fanfara",
+      "subtitle": "La Toussuire",
+      "intro": "Piccolo finale: riposo, valigie senza panico e una Polaroid mentale da portare via.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Casa di Eveline",
+        "address": "La Toussuire, Francia - indirizzo preciso TODO",
+        "checkIn": "TODO",
+        "notes": "Aggiungere indirizzo preciso.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Toussuire%20France"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Passeggiata finale",
+          "description": "Se il meteo collabora.",
+          "kind": "walk"
+        },
+        {
+          "time": "Pomeriggio",
+          "title": "Preparare il rientro",
+          "description": "Ricariche, borse, e la grande arte di non dimenticare nulla.",
+          "kind": "prep"
+        }
+      ],
+      "route": null,
+      "places": [],
+      "babyNotes": {
+        "carMinutes": "0-30 minuti: giornata locale, l'auto può anche non diventare protagonista.",
+        "pauseIdeas": "Casa di Eveline o passeggiata breve in paese, senza complicarsi la giornata.",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "TODO",
+        "stroller": "Da verificare",
+        "stairs": "Da verificare",
+        "toilets": "Alloggio",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Da verificare",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "La Toussuire",
+        "lat": 45.255,
+        "lng": 6.26
+      },
+      "backupPlans": [
+        {
+          "condition": "Stanchezza",
+          "plan": "Fare valigie e basta."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Office de Tourisme La Toussuire",
+          "url": "https://www.la-toussuire.com/",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    },
+    {
+      "id": "2026-08-22",
+      "date": "2026-08-22",
+      "dayNumber": 23,
+      "type": "transfer",
+      "base": "Rossiglione",
+      "title": "Casa, ma con stile",
+      "subtitle": "La Toussuire → Rossiglione",
+      "intro": "Ultima Polaroid: rientro con soste, ricariche e un bagagliaio probabilmente meno ordinato dell'andata.",
+      "personalNote": "",
+      "heroImage": {
+        "src": "/images/places/la-toussuire-sybelles-david-malacrida.webp",
+        "alt": "Panorama estivo di La Toussuire e delle Aiguilles d'Arves",
+        "author": "David Malacrida / elmerjack.com",
+        "sourceName": "Foto fornita da Paolo",
+        "sourceUrl": null,
+        "license": "Uso locale privato",
+        "status": "ready"
+      },
+      "accommodation": {
+        "name": "Rientro",
+        "address": "Rossiglione, Italia",
+        "checkIn": null,
+        "notes": "Arrivo finale.",
+        "bookingUrl": null,
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rossiglione%20Italy"
+      },
+      "timeline": [
+        {
+          "time": "Mattina",
+          "title": "Partenza da La Toussuire",
+          "description": "Con piano ricariche controllato prima di partire.",
+          "kind": "drive"
+        },
+        {
+          "time": "Durante il viaggio",
+          "title": "Soste elettriche e umane",
+          "description": "Le due categorie oggi coincidono parecchio.",
+          "kind": "charging"
+        },
+        {
+          "time": "Pomeriggio/sera",
+          "title": "Arrivo a Rossiglione",
+          "description": "Album completo. Missione compiuta.",
+          "kind": "arrival"
+        }
+      ],
+      "route": {
+        "start": {
+          "name": "La Toussuire",
+          "lat": 45.255,
+          "lng": 6.26
+        },
+        "end": {
+          "name": "Rossiglione",
+          "lat": 44.563,
+          "lng": 8.67
+        },
+        "distanceKm": 370,
+        "drivingMinutes": 330,
+        "segments": [
+          {
+            "from": "La Toussuire",
+            "to": "Susa/Saint-Jean-de-Maurienne",
+            "distanceKm": 155,
+            "drivingMinutes": 150,
+            "batteryStartPct": 100,
+            "batteryEndPct": 35,
+            "stop": "Susa o Saint-Jean-de-Maurienne",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Modane",
+            "backupB": "Susa",
+            "lastVerified": null
+          },
+          {
+            "from": "Susa",
+            "to": "Asti/Chieri",
+            "distanceKm": 115,
+            "drivingMinutes": 90,
+            "batteryStartPct": 85,
+            "batteryEndPct": 30,
+            "stop": "Asti/Chieri",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [
+              "da verificare"
+            ],
+            "backupA": "Torino",
+            "backupB": "Asti",
+            "lastVerified": null
+          },
+          {
+            "from": "Asti/Chieri",
+            "to": "Rossiglione",
+            "distanceKm": 95,
+            "drivingMinutes": 85,
+            "batteryStartPct": 80,
+            "batteryEndPct": 35,
+            "stop": "Arrivo",
+            "operator": "TODO",
+            "powerKw": null,
+            "services": [],
+            "backupA": "Acqui Terme",
+            "backupB": "Ovada",
+            "lastVerified": null
+          }
+        ],
+        "chargingStops": [],
+        "externalNavigation": [
+          {
+            "label": "Apri percorso multitappa",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=La+Toussuire&destination=Rossiglione&waypoints=Susa%7CAsti&travelmode=driving"
+          }
+        ]
+      },
+      "places": [],
+      "babyNotes": {
+        "carMinutes": "325 minuti stimati totali, tratta più lunga 150 minuti. Se supera 90, pausa obbligatoria prima.",
+        "pauseIdeas": "Susa o Saint-Jean-de-Maurienne; Asti/Chieri; Arrivo",
+        "whatToBring": [
+          "cambio completo",
+          "telo leggero",
+          "acqua",
+          "cappellino",
+          "salviette",
+          "giochino da auto",
+          "copertina",
+          "snack per adulti in crisi",
+          "strato caldo"
+        ]
+      },
+      "practicalInfo": {
+        "parking": "Non rilevante",
+        "stroller": "Utile per pause",
+        "stairs": "Non rilevante",
+        "toilets": "Da verificare alle soste",
+        "shade": "Da verificare",
+        "tickets": "Non previsti",
+        "openingHours": "Controllare colonnine live",
+        "narrative": "La Toussuire è una stazione di montagna della Maurienne: niente museo obbligatorio, più aria buona e logistica morbida. Qui il valore storico della giornata è semplice: rallentare, guardare le Alpi e ricordarsi che anche una passeggiata breve può essere una gita intera con un bimbo piccolo."
+      },
+      "weatherLocation": {
+        "name": "Rossiglione",
+        "lat": 44.563,
+        "lng": 8.67
+      },
+      "backupPlans": [
+        {
+          "condition": "Traffico",
+          "plan": "Allungare le pause, niente tappe turistiche."
+        }
+      ],
+      "bookings": [],
+      "sources": [
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/maps",
+          "lastVerified": null
+        }
+      ],
+      "lastVerified": null,
+      "foodRecommendations": [
+        {
+          "name": "Le Tonneau",
+          "city": "La Toussuire",
+          "style": "savoiardo semplice",
+          "budget": "€€",
+          "note": "Da tenere come opzione montagna: piatti caldi, formaggi, zero bisogno di fare i critici gastronomici.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Tonneau%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        },
+        {
+          "name": "L'Alpage",
+          "city": "La Toussuire",
+          "style": "cucina di montagna",
+          "budget": "€€",
+          "note": "Raclette/fonduta o qualcosa di molto vicino allo spirito: buono quando fuori l'aria ricorda che siamo in quota.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L'Alpage%20La%20Toussuire%20restaurant",
+          "sourceUrl": "https://www.la-toussuire.com/"
+        }
+      ],
+      "parkingOptions": [
+        {
+          "name": "Parking centre station La Toussuire",
+          "area": "centro",
+          "hasCharging": null,
+          "note": "Comodo per passeggiata breve; ricarica da controllare live.",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=parking%20La%20Toussuire%20borne%20recharge"
+        }
+      ],
+      "ticketLinks": []
+    }
+  ]
+}

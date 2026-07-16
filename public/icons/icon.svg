@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bonjour Mur Mur">
+  <rect width="512" height="512" rx="92" fill="#f3d46f"/>
+  <rect x="104" y="84" width="304" height="344" rx="10" fill="#fffdf7" transform="rotate(-5 256 256)"/>
+  <rect x="132" y="116" width="248" height="205" fill="#8ec8d8" transform="rotate(-5 256 256)"/>
+  <path d="M136 295 226 205l62 72 44-49 62 70v48H136Z" fill="#9fbea7" transform="rotate(-5 256 256)"/>
+  <circle cx="334" cy="158" r="36" fill="#fff2a8"/>
+  <path d="M170 373h170" stroke="#d55552" stroke-width="18" stroke-linecap="round" transform="rotate(-5 256 256)"/>
+</svg>

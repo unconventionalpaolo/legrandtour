@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Illustrazione di strada per viaggio in auto">
+  <rect width="900" height="675" fill="#b8dbe5"/>
+  <circle cx="720" cy="110" r="72" fill="#f3d46f"/>
+  <path d="M0 410c190-90 300 20 470-48 160-64 265-18 430-92v405H0Z" fill="#9fbea7"/>
+  <path d="M390 675c24-130 28-270 12-430h96c-18 170-12 305 28 430Z" fill="#17324a"/>
+  <path d="M450 285v70m0 70v70m0 70v70" stroke="#fffaf0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M105 455h150v66H105z" fill="#f28372"/>
+  <circle cx="142" cy="525" r="24" fill="#17324a"/><circle cx="218" cy="525" r="24" fill="#17324a"/>
+</svg>

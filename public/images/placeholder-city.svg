@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Illustrazione di città francese">
+  <rect width="900" height="675" fill="#f6d7c1"/>
+  <rect y="430" width="900" height="245" fill="#cfe3d5"/>
+  <path d="M90 430V230h85v-80h38v80h72v200Zm250 0V170h70v-70h42v70h70v260Zm260 0V260h95v-95h44v95h70v170Z" fill="#fffaf0"/>
+  <path d="M76 236h220M326 178h214M588 266h238" stroke="#d55552" stroke-width="18"/>
+  <g fill="#17324a" opacity=".72">
+    <rect x="122" y="286" width="28" height="46"/><rect x="205" y="286" width="28" height="46"/>
+    <rect x="384" y="238" width="30" height="56"/><rect x="460" y="238" width="30" height="56"/>
+    <rect x="638" y="314" width="28" height="46"/><rect x="724" y="314" width="28" height="46"/>
+  </g>
+  <path d="M0 520c180-70 280 32 440-20 180-58 280 20 460-30v205H0Z" fill="#8ec8d8"/>
+</svg>

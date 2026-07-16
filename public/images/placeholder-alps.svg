@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Illustrazione di montagne alpine">
+  <rect width="900" height="675" fill="#8ec8d8"/>
+  <circle cx="720" cy="120" r="78" fill="#f3d46f"/>
+  <path d="M0 500 190 260l92 126 150-232 190 280 90-112 188 178v175H0Z" fill="#f7efd9"/>
+  <path d="M190 260 82 500h245Zm242-106-170 346h358Zm280 168-130 178h318Z" fill="#d8dfcc"/>
+  <path d="M0 530c130-42 230 16 346-18 168-49 290-2 554-26v189H0Z" fill="#9fbea7"/>
+  <path d="M110 590c130-38 246-36 350-10s210 18 330-16" fill="none" stroke="#17324a" stroke-width="8" opacity=".18"/>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "app": {
+    "id": "bonjour-mur-mur",
+    "title": "Bonjour Mur Mur",
+    "subtitle": "23 Polaroid francesi",
+    "language": "it",
+    "timezone": "Europe/Paris",
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-22",
+    "dailyUnlockTime": "05:00",
+    "futureDaysVisibility": "hidden",
+    "pastDaysRemainAccessible": true,
+    "storeRevealStateLocally": true,
+    "offlineMode": true
+  },
+  "travellers": {
+    "primaryGuestName": "Mur Mur",
+    "organizerName": "Paolo",
+    "baby": {
+      "name": "Atti",
+      "ageMonthsAtTrip": 5,
+      "maxContinuousCarMinutes": 90,
+      "notes": "Prevedere soste frequenti, ombra, bagni, cambio pannolino e tempi non troppo rigidi."
+    }
+  },
+  "journey": {
+    "outboundStart": {
+      "name": "Rossiglione",
+      "country": "Italia"
+    },
+    "returnDestination": {
+      "name": "Rossiglione",
+      "country": "Italia"
+    }
+  },
+  "vehicle": {
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "batteryCapacityKWh": 72,
+    "prudentHighwayRangeKm": 200,
+    "maxContinuousDrivingMinutes": 90,
+    "maxDcPowerKw": null,
+    "chargingStrategy": {
+      "preferFastDC": true,
+      "preferMultipleStalls": true,
+      "preferRestrooms": true,
+      "preferFood": true,
+      "preferOutdoorSpace": true,
+      "requireBackupStops": true,
+      "liveAvailabilityMustBeRechecked": true
+    }
+  },
+  "admin": {
+    "enabled": true,
+    "passwordHashAlgorithm": "SHA-256",
+    "passwordHash": "187bbe43a16871c359636b724645272b288532eab7238de56e1580b75fa8ec49",
+    "openMethods": ["long-press-title-4-seconds", "Shift+Alt+M"],
+    "warning": "La modalità admin è una protezione dalla curiosità normale, non una misura di sicurezza informatica."
+  },
+  "features": {
+    "weather": true,
+    "maps": true,
+    "offlineFallbackMaps": true,
+    "adminPreview": true,
+    "photoCredits": true
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Illustrazione di castello francese">
+  <rect width="900" height="675" fill="#b8dbe5"/>
+  <circle cx="720" cy="112" r="70" fill="#f3d46f"/>
+  <rect y="520" width="900" height="155" fill="#9fbea7"/>
+  <path d="M145 515V240h90v-90h42v90h95v275Zm260 0V210h88v-85h45v85h96v305Zm270 0V275h82v-70h38v70h78v240Z" fill="#fffaf0"/>
+  <path d="m128 240 60-92 63 92m138-30 62-104 65 104m140 65 58-86 60 86" fill="#d55552"/>
+  <path d="M0 555c160-46 260 26 405-14 190-52 305 22 495-18v152H0Z" fill="#f3d46f" opacity=".6"/>
+  <g fill="#17324a" opacity=".72">
+    <rect x="190" y="328" width="40" height="72"/><rect x="282" y="328" width="40" height="72"/>
+    <rect x="455" y="310" width="40" height="72"/><rect x="552" y="310" width="40" height="72"/>
+    <rect x="715" y="354" width="38" height="68"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Polaroid ancora chiusa">
+  <rect width="900" height="675" fill="#eee8da"/>
+  <path d="M150 365c145-75 245 25 375-42 100-52 170-22 225-68" fill="none" stroke="#d55552" stroke-width="12" stroke-linecap="round" stroke-dasharray="2 26"/>
+  <circle cx="450" cy="338" r="88" fill="#fffaf0"/>
+  <path d="M450 285v106M400 338h100" stroke="#17324a" stroke-width="14" stroke-linecap="round"/>
+</svg>
