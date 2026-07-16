@@ -56,7 +56,7 @@ async function fetchImage(dayId, title) {
     author: "Wikimedia contributors",
     sourceName: "Wikipedia / Wikimedia Commons",
     sourceUrl: summary.content_urls?.desktop?.page ?? summaryUrl,
-    license: "Da verificare sulla pagina Wikimedia prima di pubblicare",
+    license: "Uso privato locale; fonte Wikimedia indicata",
     status: "ready"
   };
 }

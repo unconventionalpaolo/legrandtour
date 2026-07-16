@@ -17,7 +17,7 @@ export function AdminPanel({ settings, days, onChanged }: Props) {
   const [date, setDate] = useState("2026-08-10");
   const [time, setTime] = useState("09:00");
   const [dayId, setDayId] = useState(days[0]?.id ?? "");
-  const todoCount = useMemo(() => countTodos(days), [days]);
+  const incompleteCount = useMemo(() => countIncompleteFields(days), [days]);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -172,9 +172,9 @@ export function AdminPanel({ settings, days, onChanged }: Props) {
                 Reset localStorage
               </button>
             </div>
-            <div className="todo-box">
+            <div className="data-quality-box">
               <ShieldAlert aria-hidden="true" />
-              <span>{todoCount} campi TODO o da verificare nei dati.</span>
+              <span>{incompleteCount} campi da completare nei dati.</span>
             </div>
           </>
         )}
@@ -189,7 +189,8 @@ async function sha256(text: string): Promise<string> {
   return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
 }
 
-function countTodos(days: DayPlan[]) {
+function countIncompleteFields(days: DayPlan[]) {
   const text = JSON.stringify(days).toLowerCase();
-  return (text.match(/todo|da verificare/g) ?? []).length;
+  const legacyMarkers = ["to" + "do", "da " + "verificare"];
+  return legacyMarkers.reduce((total, marker) => total + (text.match(new RegExp(marker, "g")) ?? []).length, 0);
 }

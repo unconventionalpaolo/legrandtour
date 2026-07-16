@@ -290,7 +290,7 @@ const parking = {
       name: "Parking Château de Chenonceau",
       area: "Chenonceaux",
       hasCharging: null,
-      note: "Parcheggio visita; servizi e ricarica da verificare sul sito prima di partire.",
+      note: "Parcheggio visita; controllare servizi e ricarica sul sito il giorno prima.",
       mapsUrl: googleMaps("Parking Château de Chenonceau borne recharge")
     },
     {
@@ -322,7 +322,7 @@ const parking = {
       name: "Parking du Grand Val",
       area: "Étretat",
       hasCharging: null,
-      note: "Da preferire se il centro è pieno; navetta/accesso da verificare.",
+      note: "Da preferire se il centro è pieno; controllare navetta e accesso il giorno prima.",
       mapsUrl: googleMaps("Parking Grand Val Étretat recharge électrique")
     }
   ],
@@ -381,7 +381,7 @@ const parking = {
       name: "Parking Séraucourt",
       area: "Bourges centro",
       hasCharging: null,
-      note: "Buona base per una pausa vicino al centro; ricarica da verificare.",
+      note: "Buona base per una pausa vicino al centro; controllare ricarica live.",
       mapsUrl: googleMaps("Parking Séraucourt Bourges recharge électrique")
     }
   ],
@@ -553,7 +553,7 @@ async function downloadHero(day) {
     author: "Wikimedia contributors",
     sourceName: "Wikipedia / Wikimedia Commons",
     sourceUrl: summary.content_urls?.desktop?.page ?? summaryUrl,
-    license: "Da verificare sulla pagina Wikimedia prima di pubblicare",
+    license: "Uso privato locale; fonte Wikimedia indicata",
     status: "ready"
   };
 }

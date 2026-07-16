@@ -36,7 +36,7 @@ export function ChargingPlan({ day }: { day: DayPlan }) {
               </div>
               <div>
                 <dt>Potenza</dt>
-                <dd>{segment.powerKw ? `${segment.powerKw} kW` : "Da verificare"}</dd>
+                <dd>{segment.powerKw ? `${segment.powerKw} kW` : "non indicata, controllare live"}</dd>
               </div>
               <div>
                 <dt>Backup</dt>

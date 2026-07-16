@@ -6,7 +6,7 @@ import { DayPage } from "../features/daily-reveal/DayPage";
 import { RevealStage } from "../features/daily-reveal/RevealStage";
 import { useEffectiveDate } from "../hooks/useEffectiveDate";
 import type { DayPlan, Settings, Trip } from "../types/trip";
-import { markOpened } from "../utils/storage";
+import { clearStoredPreview, markOpened } from "../utils/storage";
 import { formatItalianDate, getCurrentUnlockedDay, getUnlockedDays, tripVisibility } from "../utils/time";
 
 type Props = {
@@ -17,8 +17,11 @@ type Props = {
 export function TripPage({ settings, trip }: Props) {
   const params = useParams();
   const navigate = useNavigate();
+  const [adminSignal, setAdminSignal] = useState(() => {
+    clearStoredPreview();
+    return 0;
+  });
   const effective = useEffectiveDate(settings);
-  const [adminSignal, setAdminSignal] = useState(0);
   const [selectedDayId, setSelectedDayId] = useState<string | null>(params.dayId ?? null);
   const visibility = tripVisibility(settings, effective);
   const unlockedDays = useMemo(
@@ -84,7 +87,7 @@ export function TripPage({ settings, trip }: Props) {
       </main>
 
       <footer className="footer">
-        Bonjour Mur Mur. Logistica robusta, romanticismo controllato, croissant da verificare.
+        Bonjour Mur Mur. Logistica robusta, romanticismo controllato, croissant sotto osservazione.
       </footer>
 
       <AdminPanel

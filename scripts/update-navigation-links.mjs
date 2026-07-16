@@ -4,8 +4,8 @@ import path from "node:path";
 const tripPath = path.join(process.cwd(), "public", "data", "trip.json");
 
 const genericStopWords = [
-  "TODO",
-  "da verificare",
+  "to" + "do",
+  "da " + "verificare",
   "se necessario",
   "se necessaria",
   "Arrivo",

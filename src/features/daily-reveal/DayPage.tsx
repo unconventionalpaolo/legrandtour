@@ -190,7 +190,7 @@ export function DayPage({ day, settings, onClose }: Props) {
           )}
         </div>
         <div className="personal-note">
-          {day.personalNote || "Nota personale di Paolo: TODO. Qui va la frase giusta, non una frase qualsiasi."}
+          {day.personalNote || "Nota personale di Paolo: da scrivere quando arriva la frase giusta, non una frase qualsiasi."}
           <span>Paolo</span>
         </div>
       </section>
@@ -209,7 +209,7 @@ export function DayPage({ day, settings, onClose }: Props) {
               <a href={source.url} target="_blank" rel="noreferrer">
                 {source.name}
               </a>
-              <span>Verifica: {source.lastVerified ?? "TODO"}</span>
+              <span>Verifica: {source.lastVerified ?? "non datata"}</span>
             </li>
           ))}
         </ul>
@@ -220,7 +220,7 @@ export function DayPage({ day, settings, onClose }: Props) {
 
 function AccommodationPanel({ day }: { day: DayPlan }) {
   const accommodation = day.accommodation;
-  const hasUsefulData = accommodation.name && accommodation.name !== "TODO";
+  const hasUsefulData = Boolean(accommodation.name && accommodation.name.trim().toLowerCase() !== "da completare");
 
   return (
     <div className="panel accommodation-panel">
@@ -297,7 +297,7 @@ function PracticalPanel({ day }: { day: DayPlan }) {
               <li key={parking.name}>
                 <b>{parking.name}</b>
                 <span>
-                  {parking.area} · {parking.hasCharging === true ? "ricarica indicata" : parking.hasCharging === false ? "senza ricarica indicata" : "ricarica da verificare"}
+                  {parking.area} · {parking.hasCharging === true ? "ricarica indicata" : parking.hasCharging === false ? "senza ricarica indicata" : "ricarica non indicata"}
                 </span>
                 <p>{parking.note}</p>
                 <a href={parking.mapsUrl} target="_blank" rel="noreferrer">
@@ -331,7 +331,7 @@ function PracticalPanel({ day }: { day: DayPlan }) {
 
 function formatValue(value: string | number | string[] | null | undefined) {
   if (Array.isArray(value)) return value.join(", ");
-  return value ?? "Da verificare";
+  return value ?? "non indicato";
 }
 
 function labelize(value: string) {

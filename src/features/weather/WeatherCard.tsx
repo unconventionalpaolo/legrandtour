@@ -35,11 +35,11 @@ export function WeatherCard({ day }: { day: DayPlan }) {
         <dl className="info-list">
           <div>
             <dt>Pioggia</dt>
-            <dd>{weather.precipitation == null ? "Da verificare" : `${weather.precipitation} mm`}</dd>
+            <dd>{weather.precipitation == null ? "dato non disponibile" : `${weather.precipitation} mm`}</dd>
           </div>
           <div>
             <dt>Vento</dt>
-            <dd>{weather.wind == null ? "Da verificare" : `${weather.wind} km/h`}</dd>
+            <dd>{weather.wind == null ? "dato non disponibile" : `${weather.wind} km/h`}</dd>
           </div>
           <div>
             <dt>Vestiti</dt>

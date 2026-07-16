@@ -58,11 +58,11 @@ Metti le immagini in `public/images/`, preferibilmente WebP o AVIF. Aggiorna il 
 }
 ```
 
-Non usare hotlink. Se non hai una licenza chiara, lascia il placeholder e un TODO.
+Non usare hotlink. Se non hai una licenza chiara, lascia il placeholder con una nota esplicita per uso privato.
 
 ## Inserire hotel e indirizzi
 
-In ogni giornata aggiorna `accommodation.name`, `accommodation.address`, `accommodation.checkIn` e `bookings`. Non inserire dati inventati: usa `TODO` finché non sono reali.
+In ogni giornata aggiorna `accommodation.name`, `accommodation.address`, `accommodation.checkIn` e `bookings`. Non inserire dati inventati: usa una nota chiara tipo `da completare con conferma prenotazione` finche non sono reali.
 
 ## Aggiornare soste di ricarica
 
@@ -103,6 +103,6 @@ La PWA usa `vite-plugin-pwa` con aggiornamento automatico. Dopo modifiche import
 - password errata;
 - password corretta.
 
-## Dati ancora mancanti
+## Dati da tenere vivi
 
-I campi `TODO`, `Da verificare` e `lastVerified: null` indicano dati volutamente non inventati: hotel, indirizzi, orari, prezzi, colonnine, servizi, parcheggi, accessibilità e fotografie reali con licenza.
+I campi con note operative come `controllare live` indicano dati che cambiano spesso: orari, prezzi, colonnine, servizi, parcheggi, accessibilita e fotografie reali con licenza.
