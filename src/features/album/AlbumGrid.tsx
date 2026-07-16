@@ -1,6 +1,7 @@
 import { Images } from "lucide-react";
 import type { CSSProperties } from "react";
 import type { DayPlan } from "../../types/trip";
+import { assetUrl } from "../../utils/assets";
 import { formatItalianDate } from "../../utils/time";
 
 type Props = {
@@ -35,7 +36,7 @@ export function AlbumGrid({ days, currentDayId, onOpen }: Props) {
               key={day.id}
               onClick={() => onOpen(day)}
             >
-              <img src={day.heroImage.src} alt={day.heroImage.alt} loading="lazy" />
+              <img src={assetUrl(day.heroImage.src)} alt={day.heroImage.alt} loading="lazy" />
               <b>{day.title}</b>
               <span>{formatItalianDate(day.date)}</span>
               <small>{day.subtitle}</small>

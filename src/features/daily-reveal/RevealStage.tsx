@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Camera, Clock, Sparkles } from "lucide-react";
 import { useState } from "react";
 import type { DayPlan, Settings } from "../../types/trip";
+import { assetUrl } from "../../utils/assets";
 import { type EffectiveDateTime, type TripVisibility, daysUntil, formatItalianDate } from "../../utils/time";
 
 type Props = {
@@ -97,7 +98,7 @@ export function RevealStage({ currentDay, settings, visibility, effective, onRev
           transition={{ duration: 3.15, ease: [0.18, 0.86, 0.24, 1] }}
         >
           <div className="photo-window">
-            <img src={photoSrc} alt="" />
+            <img src={assetUrl(photoSrc)} alt="" />
             <motion.div
               className="photo-wash"
               animate={revealing && !reducedMotion ? { opacity: [0.96, 0.8, 0] } : { opacity: 0.9 }}

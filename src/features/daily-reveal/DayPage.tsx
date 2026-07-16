@@ -1,5 +1,6 @@
 import { ArrowLeft, CalendarDays, ExternalLink, MapPin, Utensils } from "lucide-react";
 import type { Settings, DayPlan } from "../../types/trip";
+import { assetUrl } from "../../utils/assets";
 import { formatItalianDate } from "../../utils/time";
 import { ChargingPlan } from "../charging/ChargingPlan";
 import { DayMap } from "../maps/DayMap";
@@ -22,7 +23,7 @@ export function DayPage({ day, settings, onClose }: Props) {
       <section className="day-hero">
         <figure className="hero-polaroid">
           <span className="tape" aria-hidden="true" />
-          <img src={day.heroImage.src} alt={day.heroImage.alt} />
+          <img src={assetUrl(day.heroImage.src)} alt={day.heroImage.alt} />
           <figcaption>
             <span>{day.subtitle}</span>
             <small>{day.date.slice(5).replace("-", ".")}</small>
@@ -88,7 +89,7 @@ export function DayPage({ day, settings, onClose }: Props) {
             {day.places.map((place) => (
               <article className="place-card" key={place.name}>
                 {place.image ? (
-                  <img className="place-card-photo" src={place.image.src} alt={place.image.alt} loading="lazy" />
+                  <img className="place-card-photo" src={assetUrl(place.image.src)} alt={place.image.alt} loading="lazy" />
                 ) : (
                   <div className="place-card-map">
                     <MapPin aria-hidden="true" />
