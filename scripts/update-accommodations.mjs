@@ -48,12 +48,12 @@ const stays = [
     from: "2026-08-06",
     to: "2026-08-08",
     accommodation: {
-      name: "Airbnb da Tom",
-      address: "11 Rue Saint-Michel, 37550 Saint-Avertin, Francia",
-      checkIn: "secondo accordi con Tom",
-      notes: "Base Loira: tenere il link Airbnb o messaggio host a portata di mano.",
-      bookingUrl: null,
-      mapsUrl: mapsUrl("11 Rue Saint-Michel, 37550 Saint-Avertin, France")
+      name: "Camping Tours Val de Loire",
+      address: "61 rue de Rochepinard, 37550 Saint-Avertin, Francia",
+      checkIn: "secondo conferma del camping",
+      notes: "Soggiorno 6-9 agosto in chalet tutto per noi, base verde sul Cher a due passi da Tours.",
+      bookingUrl: "https://www.campingtours.fr/hebergements/",
+      mapsUrl: "https://maps.app.goo.gl/hrvj1C4dRzWAuzVv6"
     }
   },
   {

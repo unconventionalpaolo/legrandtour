@@ -1123,9 +1123,9 @@
       "date": "2026-08-06",
       "dayNumber": 7,
       "type": "transfer",
-      "base": "Saint-Avertin",
+      "base": "Camping Tours Val de Loire",
       "title": "Rotta verso la Loira",
-      "subtitle": "zona Moulins → Saint-Avertin",
+      "subtitle": "zona Moulins → Camping Tours Val de Loire",
       "intro": "Ci avviciniamo ai castelli. Con giudizio, perché il Rinascimento può aspettare una pausa pannolino.",
       "personalNote": "Attilio in versione: Game of Paperotto",
       "heroImage": {
@@ -1138,12 +1138,12 @@
         "status": "ready"
       },
       "accommodation": {
-        "name": "Airbnb da Tom",
-        "address": "11 Rue Saint-Michel, Saint-Avertin, Centro-Valle della Loira 37550, Francia",
-        "checkIn": "secondo accordi con Tom",
-        "notes": "Soggiorno 6-9 agosto.",
-        "bookingUrl": null,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11%20Rue%20Saint-Michel%2C%2037550%20Saint-Avertin%2C%20France"
+        "name": "Camping Tours Val de Loire",
+        "address": "61 rue de Rochepinard, 37550 Saint-Avertin, Francia",
+        "checkIn": "secondo conferma del camping",
+        "notes": "Soggiorno 6-9 agosto in chalet tutto per noi, base verde sul Cher a due passi da Tours.",
+        "bookingUrl": "https://www.campingtours.fr/hebergements/",
+        "mapsUrl": "https://maps.app.goo.gl/hrvj1C4dRzWAuzVv6"
       },
       "timeline": [
         {
@@ -1160,8 +1160,8 @@
         },
         {
           "time": "Pomeriggio",
-          "title": "Arrivo a Saint-Avertin",
-          "description": "Check-in e spesa utile.",
+          "title": "Arrivo al Camping Tours Val de Loire",
+          "description": "Check-in nello chalet, spesa utile e modalità casa nostra sul Cher.",
           "kind": "arrival"
         }
       ],
@@ -1172,9 +1172,9 @@
           "lng": 3.334
         },
         "end": {
-          "name": "Saint-Avertin",
-          "lat": 47.363,
-          "lng": 0.739
+          "name": "Camping Tours Val de Loire",
+          "lat": 47.3707991,
+          "lng": 0.72399
         },
         "distanceKm": 270,
         "drivingMinutes": 240,
@@ -1199,12 +1199,12 @@
           },
           {
             "from": "Bourges",
-            "to": "Saint-Avertin",
+            "to": "Camping Tours Val de Loire",
             "distanceKm": 150,
             "drivingMinutes": 130,
             "batteryStartPct": 85,
             "batteryEndPct": 20,
-            "stop": "Tours/Saint-Avertin se necessario",
+            "stop": "Tours / Camping Tours Val de Loire se necessario",
             "operator": "Powerdot / Izivia / Tesla",
             "powerKw": null,
             "services": [
@@ -1219,7 +1219,7 @@
         "externalNavigation": [
           {
             "label": "Apri percorso multitappa",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Moulins&destination=Saint-Avertin&waypoints=Bourges&travelmode=driving"
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Moulins&destination=61%20rue%20de%20Rochepinard%2C%2037550%20Saint-Avertin%2C%20Francia&waypoints=Bourges&travelmode=driving"
           }
         ]
       },
@@ -1250,7 +1250,7 @@
       ],
       "babyNotes": {
         "carMinutes": "225 minuti stimati totali, tratta più lunga 130 minuti. Se supera 90, pausa obbligatoria prima.",
-        "pauseIdeas": "Bourges; Tours/Saint-Avertin se necessario",
+        "pauseIdeas": "Bourges; Tours / Camping Tours Val de Loire se necessario",
         "whatToBring": [
           "cambio completo",
           "telo leggero",
@@ -1264,7 +1264,7 @@
         ]
       },
       "practicalInfo": {
-        "parking": "A Bourges usare parcheggi attorno al centro storico; arrivo poi a Saint-Avertin.",
+        "parking": "A Bourges usare parcheggi attorno al centro storico; arrivo poi al Camping Tours Val de Loire, 61 rue de Rochepinard.",
         "stroller": "Passeggino utile in centro, attenzione a pavé e tratti medievali.",
         "stairs": "Cattedrale e centro possono avere gradini: percorso morbido.",
         "toilets": "Bagni in bar, ufficio turismo e punti museali.",
@@ -1274,9 +1274,9 @@
         "narrative": "La Loira è la zona dove i castelli hanno deciso di esagerare con grazia. Chenonceau attraversa il Cher come se fosse normale costruire sull'acqua, Amboise racconta un pezzo di Rinascimento francese, Villandry mette i giardini in ordine geometrico. Bellissimo, ma una visita grande al giorno resta la scelta più adulta."
       },
       "weatherLocation": {
-        "name": "Saint-Avertin",
-        "lat": 47.363,
-        "lng": 0.739
+        "name": "Camping Tours Val de Loire",
+        "lat": 47.3707991,
+        "lng": 0.72399
       },
       "backupPlans": [
         {
@@ -1352,7 +1352,7 @@
       "date": "2026-08-07",
       "dayNumber": 8,
       "type": "base",
-      "base": "Saint-Avertin",
+      "base": "Camping Tours Val de Loire",
       "title": "Un castello, perché una casa normale no",
       "subtitle": "Chenonceau e Amboise",
       "intro": "Giornata Loira classica, ma senza infilare tre residenze reali nello stesso passeggino.",
@@ -1367,12 +1367,12 @@
         "status": "ready"
       },
       "accommodation": {
-        "name": "Airbnb da Tom",
-        "address": "11 Rue Saint-Michel, Saint-Avertin, Centro-Valle della Loira 37550, Francia",
-        "checkIn": "secondo accordi con Tom",
-        "notes": "Soggiorno 6-9 agosto.",
-        "bookingUrl": null,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11%20Rue%20Saint-Michel%2C%2037550%20Saint-Avertin%2C%20France"
+        "name": "Camping Tours Val de Loire",
+        "address": "61 rue de Rochepinard, 37550 Saint-Avertin, Francia",
+        "checkIn": "secondo conferma del camping",
+        "notes": "Soggiorno 6-9 agosto in chalet tutto per noi, base verde sul Cher a due passi da Tours.",
+        "bookingUrl": "https://www.campingtours.fr/hebergements/",
+        "mapsUrl": "https://maps.app.goo.gl/hrvj1C4dRzWAuzVv6"
       },
       "timeline": [
         {
@@ -1396,14 +1396,14 @@
       ],
       "route": {
         "start": {
-          "name": "Saint-Avertin",
-          "lat": 47.363,
-          "lng": 0.739
+          "name": "Camping Tours Val de Loire",
+          "lat": 47.3707991,
+          "lng": 0.72399
         },
         "end": {
-          "name": "Saint-Avertin",
-          "lat": 47.363,
-          "lng": 0.739
+          "name": "Camping Tours Val de Loire",
+          "lat": 47.3707991,
+          "lng": 0.72399
         },
         "distanceKm": 95,
         "drivingMinutes": 100,
@@ -1412,7 +1412,7 @@
         "externalNavigation": [
           {
             "label": "Apri percorso multitappa",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Saint-Avertin&destination=Saint-Avertin&waypoints=Ch%C3%A2teau+de+Chenonceau%7CAmboise&travelmode=driving"
+            "url": "https://www.google.com/maps/dir/?api=1&origin=61%20rue%20de%20Rochepinard%2C%2037550%20Saint-Avertin%2C%20Francia&destination=61%20rue%20de%20Rochepinard%2C%2037550%20Saint-Avertin%2C%20Francia&waypoints=Ch%C3%A2teau%20de%20Chenonceau%7CAmboise&travelmode=driving"
           }
         ]
       },
@@ -1582,7 +1582,7 @@
       "date": "2026-08-08",
       "dayNumber": 9,
       "type": "base",
-      "base": "Saint-Avertin",
+      "base": "Camping Tours Val de Loire",
       "title": "Giardini, geometria e pausa merenda",
       "subtitle": "Villandry o Chambord leggero",
       "intro": "Secondo giorno Loira: bello sì, enciclopedico no. Scegliamo un obiettivo e lasciamo spazio all'aria.",
@@ -1597,12 +1597,12 @@
         "status": "ready"
       },
       "accommodation": {
-        "name": "Airbnb da Tom",
-        "address": "11 Rue Saint-Michel, Saint-Avertin, Centro-Valle della Loira 37550, Francia",
-        "checkIn": "secondo accordi con Tom",
-        "notes": "Soggiorno 6-9 agosto.",
-        "bookingUrl": null,
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=11%20Rue%20Saint-Michel%2C%2037550%20Saint-Avertin%2C%20France"
+        "name": "Camping Tours Val de Loire",
+        "address": "61 rue de Rochepinard, 37550 Saint-Avertin, Francia",
+        "checkIn": "secondo conferma del camping",
+        "notes": "Soggiorno 6-9 agosto in chalet tutto per noi, base verde sul Cher a due passi da Tours.",
+        "bookingUrl": "https://www.campingtours.fr/hebergements/",
+        "mapsUrl": "https://maps.app.goo.gl/hrvj1C4dRzWAuzVv6"
       },
       "timeline": [
         {
@@ -1620,14 +1620,14 @@
       ],
       "route": {
         "start": {
-          "name": "Saint-Avertin",
-          "lat": 47.363,
-          "lng": 0.739
+          "name": "Camping Tours Val de Loire",
+          "lat": 47.3707991,
+          "lng": 0.72399
         },
         "end": {
-          "name": "Saint-Avertin",
-          "lat": 47.363,
-          "lng": 0.739
+          "name": "Camping Tours Val de Loire",
+          "lat": 47.3707991,
+          "lng": 0.72399
         },
         "distanceKm": 55,
         "drivingMinutes": 70,
@@ -1636,7 +1636,7 @@
         "externalNavigation": [
           {
             "label": "Apri percorso multitappa",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Saint-Avertin&destination=Saint-Avertin&waypoints=Ch%C3%A2teau+et+Jardins+de+Villandry%7CChambord&travelmode=driving"
+            "url": "https://www.google.com/maps/dir/?api=1&origin=61%20rue%20de%20Rochepinard%2C%2037550%20Saint-Avertin%2C%20Francia&destination=61%20rue%20de%20Rochepinard%2C%2037550%20Saint-Avertin%2C%20Francia&waypoints=Ch%C3%A2teau%20et%20Jardins%20de%20Villandry%7CChambord&travelmode=driving"
           }
         ]
       },
@@ -1796,7 +1796,7 @@
       "type": "transfer",
       "base": "Rouen",
       "title": "Verso nord, con criterio",
-      "subtitle": "Saint-Avertin → Rouen",
+      "subtitle": "Camping Tours Val de Loire → Rouen",
       "intro": "Trasferimento importante: una tappa sola, scelta bene, poi Normandia.",
       "personalNote": "Vamonos e passiamo dalla matta LeMans!",
       "heroImage": {
@@ -1819,7 +1819,7 @@
       "timeline": [
         {
           "time": "Mattina",
-          "title": "Partenza da Saint-Avertin",
+          "title": "Partenza dal Camping Tours Val de Loire",
           "description": "Partire senza trasformare la mattina in una gara.",
           "kind": "drive"
         },
@@ -1838,9 +1838,9 @@
       ],
       "route": {
         "start": {
-          "name": "Saint-Avertin",
-          "lat": 47.363,
-          "lng": 0.739
+          "name": "Camping Tours Val de Loire",
+          "lat": 47.3707991,
+          "lng": 0.72399
         },
         "end": {
           "name": "Rouen",
@@ -1851,7 +1851,7 @@
         "drivingMinutes": 270,
         "segments": [
           {
-            "from": "Saint-Avertin",
+            "from": "Camping Tours Val de Loire",
             "to": "Chartres/Le Mans",
             "distanceKm": 130,
             "drivingMinutes": 100,
@@ -1889,7 +1889,7 @@
         "externalNavigation": [
           {
             "label": "Apri percorso multitappa",
-            "url": "https://www.google.com/maps/dir/?api=1&origin=Saint-Avertin&destination=Rouen&waypoints=Chartres&travelmode=driving"
+            "url": "https://www.google.com/maps/dir/?api=1&origin=61%20rue%20de%20Rochepinard%2C%2037550%20Saint-Avertin%2C%20Francia&destination=Rouen&waypoints=Chartres&travelmode=driving"
           }
         ]
       },
